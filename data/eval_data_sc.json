@@ -1,175 +1,109 @@
 [
   {
-    "input": "Let's to uop tme ben.",
-    "output": "Let's go up the ben.",
-    "variant": "SC",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "i need to finish this by tonight.",
-    "output": "I need to finish this by tonight.",
-    "variant": "SC",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "Send me the address please.",
-    "output": "Send me the address please.",
+    "input": "cap",
+    "output": "cap",
     "variant": "SC",
     "typo_type": "none"
   },
   {
-    "input": "Pldase let me know if therf's anything else yOu need from me before the neetkng.",
-    "output": "Please let me know if there's anything else you need from me before the meeting.",
+    "input": "onpe",
+    "output": "nope",
     "variant": "SC",
     "typo_type": "corrupted"
   },
   {
-    "input": "loe you",
-    "output": "love you",
+    "input": "What time dos the meeting start?",
+    "output": "What time does the meeting start?",
     "variant": "SC",
     "typo_type": "corrupted"
   },
   {
-    "input": "When will gou be available?",
-    "output": "When will you be available?",
-    "variant": "SC",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "The draught is soming thrpugh th window.",
-    "output": "The draught is coming through the window.",
-    "variant": "SC",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "soundds  great",
-    "output": "sounds great",
-    "variant": "SC",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "h",
-    "output": "hi",
-    "variant": "SC",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "I travelled to London lats summer",
-    "output": "I travelled to London last summer.",
-    "variant": "SC",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "The counsellor gav ood advice.",
-    "output": "The counsellor gave good advice.",
-    "variant": "SC",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "lowkey",
-    "output": "lowkey",
+    "input": "The jewelry store is closed today.",
+    "output": "The jewelry store is closed today.",
     "variant": "SC",
     "typo_type": "none"
   },
   {
-    "input": "hold ohn",
-    "output": "hold on",
+    "input": "running lahe",
+    "output": "running late",
     "variant": "SC",
     "typo_type": "corrupted"
   },
   {
-    "input": "i travelled to London lxst summer.",
-    "output": "I travelled to London last summer.",
+    "input": "Cheque the tyre pressuure before driving.",
+    "output": "Cheque the tyre pressure before driving.",
     "variant": "SC",
     "typo_type": "corrupted"
   },
   {
-    "input": "sounds great",
-    "output": "sounds great",
+    "input": "you v up",
+    "output": "you up",
     "variant": "SC",
-    "typo_type": "none"
+    "typo_type": "corrupted"
   },
   {
-    "input": "I will seNd ypu the document later today",
+    "input": "I forgot my phone at hoe.",
+    "output": "I forgot my phone at home.",
+    "variant": "SC",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "helllo?",
+    "output": "hello?",
+    "variant": "SC",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Rhe burn isrunning high today.",
+    "output": "The burn is running high today.",
+    "variant": "SC",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I will send yok the document laeer today.",
     "output": "I will send you the document later today.",
     "variant": "SC",
     "typo_type": "corrupted"
   },
   {
-    "input": "She hss a great sense of humour.",
-    "output": "She has a great sense of humour.",
-    "variant": "SC",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "Halpy Hogmanay everyon!",
-    "output": "Happy Hogmanay everyone!",
-    "variant": "SC",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "Tue bairn is sleeping upstairs.",
-    "output": "The bairn is sleeping upstairs.",
-    "variant": "SC",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "thank you so much",
-    "output": "thank you so much",
+    "input": "idk",
+    "output": "idk",
     "variant": "SC",
     "typo_type": "none"
   },
   {
-    "input": "Let me know when you're free to discuss this.",
-    "output": "Let me know when you're free to discuss this.",
+    "input": "kk",
+    "output": "kk",
     "variant": "SC",
     "typo_type": "none"
   },
   {
-    "input": "good morrning",
-    "output": "good morning",
+    "input": "be irght there",
+    "output": "be right there",
     "variant": "SC",
     "typo_type": "corrupted"
   },
   {
-    "input": "wth",
-    "output": "wth",
+    "input": "I will send you the document later today.",
+    "output": "I will send you the document later today.",
     "variant": "SC",
     "typo_type": "none"
   },
   {
-    "input": "ikr",
-    "output": "ikr",
+    "input": "The weather's awfy dreich today",
+    "output": "The weather's awfy dreich today.",
+    "variant": "SC",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "sry",
+    "output": "sry",
     "variant": "SC",
     "typo_type": "none"
   },
   {
-    "input": "That's pure brilliant, pwl!",
-    "output": "That's pure brilliant, pal!",
-    "variant": "SC",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "np",
-    "output": "np",
-    "variant": "SC",
-    "typo_type": "none"
-  },
-  {
-    "input": "whenever you csn",
-    "output": "whenever you can",
-    "variant": "SC",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "tahnk uou s much",
-    "output": "thank you so much",
-    "variant": "SC",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "Let me cyeque my schedule and get b back n to gou.",
-    "output": "Let me cheque my schedule and get back to you.",
+    "input": "The organisation is planning a restructure",
+    "output": "The organisation is planning a restructure.",
     "variant": "SC",
     "typo_type": "corrupted"
   },
@@ -180,112 +114,214 @@
     "typo_type": "none"
   },
   {
-    "input": "slay",
-    "output": "slay",
+    "input": "wanna hzang",
+    "output": "wanna hang",
+    "variant": "SC",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "grear",
+    "output": "great",
+    "variant": "SC",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I really appreciate your patience.",
+    "output": "I really appreciate your patience.",
     "variant": "SC",
     "typo_type": "none"
   },
   {
-    "input": "whenever you csn",
-    "output": "whenever you can",
+    "input": "wen you're gree",
+    "output": "when you're free",
     "variant": "SC",
     "typo_type": "corrupted"
   },
   {
-    "input": "Let  me know if you need anything.",
-    "output": "Let me know if you need anything.",
+    "input": "Who us coming to the party?",
+    "output": "Who is coming to the party?",
     "variant": "SC",
     "typo_type": "corrupted"
   },
   {
-    "input": "hold og",
-    "output": "hold on",
+    "input": "Why dwd you change the plen?",
+    "output": "Why did you change the plan?",
     "variant": "SC",
     "typo_type": "corrupted"
   },
   {
-    "input": "Can you summarise the main ppoints?",
-    "output": "Can you summarise the main points?",
+    "input": "I have a meeting at three o'clock ths afternoon.",
+    "output": "I have a meeting at three o'clock this afternoon.",
     "variant": "SC",
     "typo_type": "corrupted"
   },
   {
-    "input": "good luck",
-    "output": "good luck",
+    "input": "idk",
+    "output": "idk",
     "variant": "SC",
     "typo_type": "none"
   },
   {
-    "input": "tSop yur blethering!",
-    "output": "Stop your blethering!",
+    "input": "I apologise for any inconvenience this may have causqd you.",
+    "output": "I apologise for any inconvenience this may have caused you.",
     "variant": "SC",
     "typo_type": "corrupted"
   },
   {
-    "input": "I realised I letf my phone at yhome.",
-    "output": "I realised I left my phone at home.",
-    "variant": "SC",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "I'll get back t you a soon as I can.",
-    "output": "I'll get back to you as soon as I can.",
-    "variant": "SC",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "bo rush",
-    "output": "no rush",
-    "variant": "SC",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "cap",
-    "output": "cap",
+    "input": "means a lot",
+    "output": "means a lot",
     "variant": "SC",
     "typo_type": "none"
   },
   {
-    "input": "bussin",
-    "output": "bussin",
+    "input": "tdxt me",
+    "output": "text me",
+    "variant": "SC",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Please let ne know if here's anything else you neeD from me before the meeting.",
+    "output": "Please let me know if there's anything else you need from me before the meeting.",
+    "variant": "SC",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "hi",
+    "output": "hi",
     "variant": "SC",
     "typo_type": "none"
   },
   {
-    "input": "miss ylu",
+    "input": "valid",
+    "output": "valid",
+    "variant": "SC",
+    "typo_type": "none"
+  },
+  {
+    "input": "she's a bonnie lass.",
+    "output": "She's a bonnie lass.",
+    "variant": "SC",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "no worris",
+    "output": "no worries",
+    "variant": "SC",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "We should optimise the workflo.",
+    "output": "We should optimise the workflow.",
+    "variant": "SC",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "text em",
+    "output": "text me",
+    "variant": "SC",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "g2g",
+    "output": "g2g",
+    "variant": "SC",
+    "typo_type": "none"
+  },
+  {
+    "input": "Aye I ken what you mean.",
+    "output": "Aye, I ken what you mean.",
+    "variant": "SC",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Mum is coming to visit next week.",
+    "output": "Mum is coming to visit next week.",
+    "variant": "SC",
+    "typo_type": "none"
+  },
+  {
+    "input": "that's a braw wee idea!",
+    "output": "That's a braw wee idea!",
+    "variant": "SC",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "She's vey skilful at he job.",
+    "output": "She's very skilful at her job.",
+    "variant": "SC",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "kkk",
+    "output": "kk",
+    "variant": "SC",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "kk",
+    "output": "kk",
+    "variant": "SC",
+    "typo_type": "none"
+  },
+  {
+    "input": "Can you organise te meeting for tomorrow?",
+    "output": "Can you organise the meeting for tomorrow?",
+    "variant": "SC",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I'll authorise the paymsnt today.",
+    "output": "I'll authorise the payment today.",
+    "variant": "SC",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "lit",
+    "output": "lit",
+    "variant": "SC",
+    "typo_type": "none"
+  },
+  {
+    "input": "k",
+    "output": "k",
+    "variant": "SC",
+    "typo_type": "none"
+  },
+  {
+    "input": "miss yoou",
     "output": "miss you",
     "variant": "SC",
     "typo_type": "corrupted"
   },
   {
-    "input": "Hii thefre! Nice to hear feom you.",
-    "output": "Hi there! Nice to hear from you.",
+    "input": "cokl",
+    "output": "cool",
     "variant": "SC",
     "typo_type": "corrupted"
   },
   {
-    "input": "yaeh",
-    "output": "yeah",
+    "input": "Today I m going to the office too work on a new project.",
+    "output": "Today I am going to the office to work on a new project.",
     "variant": "SC",
     "typo_type": "corrupted"
   },
   {
-    "input": "he has a great sense fo humour.",
-    "output": "She has a great sense of humour.",
+    "input": "the defence tem prepraedtheir case.",
+    "output": "The defence team prepared their case.",
     "variant": "SC",
     "typo_type": "corrupted"
   },
   {
-    "input": "Cheque the tyre pressur before driving.",
-    "output": "Cheque the tyre pressure before driving.",
+    "input": "I'll follow up with you b tomorrow morning.",
+    "output": "I'll follow up with you tomorrow morning.",
     "variant": "SC",
     "typo_type": "corrupted"
   },
   {
-    "input": "leaving noe",
-    "output": "leaving now",
+    "input": "i'm in",
+    "output": "i'm in",
     "variant": "SC",
-    "typo_type": "corrupted"
+    "typo_type": "none"
   },
   {
     "input": "bet",
@@ -294,8 +330,128 @@
     "typo_type": "none"
   },
   {
-    "input": "This is taikng longer than expected.",
-    "output": "This is taking longer than expected.",
+    "input": "mo problem",
+    "output": "no problem",
+    "variant": "SC",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "wanna hangg",
+    "output": "wanna hang",
+    "variant": "SC",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "She's a bonnie lass",
+    "output": "She's a bonnie lass.",
+    "variant": "SC",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "miss you",
+    "output": "miss you",
+    "variant": "SC",
+    "typo_type": "none"
+  },
+  {
+    "input": "onee sec",
+    "output": "one sec",
+    "variant": "SC",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Hey, what's up? How's it going?",
+    "output": "Hey, what's up? How's it going?",
+    "variant": "SC",
+    "typo_type": "none"
+  },
+  {
+    "input": "i am looking forward tp hearing from ypu soon.",
+    "output": "I am looking forward to hearing from you soon.",
+    "variant": "SC",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Let me know if you have any questions",
+    "output": "Let me know if you have any questions.",
+    "variant": "SC",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "cngrats",
+    "output": "congrats",
+    "variant": "SC",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "i forgot my phone t home.",
+    "output": "I forgot my phone at home.",
+    "variant": "SC",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "be rhere soon",
+    "output": "be there soon",
+    "variant": "SC",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "based",
+    "output": "based",
+    "variant": "SC",
+    "typo_type": "none"
+  },
+  {
+    "input": "trxe",
+    "output": "true",
+    "variant": "SC",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Can you please call me when ypu ret a chanse?",
+    "output": "Can you please call me when you get a chance?",
+    "variant": "SC",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "running ate",
+    "output": "running late",
+    "variant": "SC",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "looking forward to seeing everyone at the event this weemend.",
+    "output": "Looking forward to seeing everyone at the event this weekend.",
+    "variant": "SC",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "ni",
+    "output": "no",
+    "variant": "SC",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "i bneed to finish this by n tonight.",
+    "output": "I need to finish this by tonight.",
+    "variant": "SC",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "text me",
+    "output": "text me",
+    "variant": "SC",
+    "typo_type": "none"
+  },
+  {
+    "input": "Cheque tge tyre pressure before  drigving.",
+    "output": "Cheque the tyre pressure before driving.",
+    "variant": "SC",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "iater",
+    "output": "later",
     "variant": "SC",
     "typo_type": "corrupted"
   }

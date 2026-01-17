@@ -1,127 +1,205 @@
 [
   {
-    "input": "hy did you change the plan?",
-    "output": "Why did you change the plan?",
+    "input": "appreciate It",
+    "output": "appreciate it",
     "variant": "AU",
     "typo_type": "corrupted"
   },
   {
-    "input": "sorry",
-    "output": "sorry",
+    "input": "trUe",
+    "output": "true",
+    "variant": "AU",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "ty",
+    "output": "ty",
     "variant": "AU",
     "typo_type": "none"
   },
   {
-    "input": "Van you please call me when you get a cHance?",
-    "output": "Can you please call me when you get a chance?",
+    "input": "thqt doughnut looks delciious.",
+    "output": "That doughnut looks delicious.",
     "variant": "AU",
     "typo_type": "corrupted"
   },
   {
-    "input": "pleasee",
-    "output": "please",
-    "variant": "AU",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "i completely understand your concern.",
-    "output": "I completely understand your concern.",
-    "variant": "AU",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "igm working from home today.",
-    "output": "I'm working from home today.",
-    "variant": "AU",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "rn",
-    "output": "rn",
+    "input": "highkey",
+    "output": "highkey",
     "variant": "AU",
     "typo_type": "none"
   },
   {
-    "input": "I'h absolutely stoked!",
-    "output": "I'm absolutely stoked!",
+    "input": "keep m posted",
+    "output": "keep me posted",
     "variant": "AU",
     "typo_type": "corrupted"
   },
   {
-    "input": "How arf you doing today?",
-    "output": "How are you doing today?",
+    "input": "wanna comf",
+    "output": "wanna come",
     "variant": "AU",
     "typo_type": "corrupted"
   },
   {
-    "input": "see yo soon",
-    "output": "see you soon",
+    "input": "Put on your sunnies, its bright.",
+    "output": "Put on your sunnies, it's bright.",
     "variant": "AU",
     "typo_type": "corrupted"
   },
   {
-    "input": "Crikey, loko st hat!",
-    "output": "Crikey, look at that!",
+    "input": "grwat",
+    "output": "great",
     "variant": "AU",
     "typo_type": "corrupted"
   },
   {
-    "input": "brb",
-    "output": "brb",
+    "input": "text me",
+    "output": "text me",
     "variant": "AU",
     "typo_type": "none"
   },
   {
-    "input": "I wanted to follow up on ohr conversation frlm yesterday about thf project timeline.",
-    "output": "I wanted to follow up on our conversation from yesterday about the project timeline.",
-    "variant": "AU",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "suae",
-    "output": "sure",
-    "variant": "AU",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "hello",
-    "output": "hello",
+    "input": "fr",
+    "output": "fr",
     "variant": "AU",
     "typo_type": "none"
   },
   {
-    "input": "tak later",
-    "output": "talk later",
-    "variant": "AU",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "ikr",
-    "output": "ikr",
+    "input": "hello?",
+    "output": "hello?",
     "variant": "AU",
     "typo_type": "none"
   },
   {
-    "input": "lmao",
-    "output": "lmao",
+    "input": "I'll be out of office next Monday.",
+    "output": "I'll be out of office next Monday.",
     "variant": "AU",
     "typo_type": "none"
   },
   {
-    "input": "nisce",
-    "output": "nice",
+    "input": "thsnks",
+    "output": "thanks",
     "variant": "AU",
     "typo_type": "corrupted"
   },
   {
-    "input": "no rpoblem",
+    "input": "nno problem",
     "output": "no problem",
     "variant": "AU",
     "typo_type": "corrupted"
   },
   {
-    "input": "Who is clming to yhe prty?",
-    "output": "Who is coming to the party?",
+    "input": "seend me the address please.",
+    "output": "Send me the address please.",
+    "variant": "AU",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "K'm working from hpme today.",
+    "output": "I'm working from home today.",
+    "variant": "AU",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Just wanted to cheque in and see how you're doing",
+    "output": "Just wanted to cheque in and see how you're doing.",
+    "variant": "AU",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Grabsome snags for the barbie.",
+    "output": "Grab some snags for the barbie.",
+    "variant": "AU",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "rain chevk",
+    "output": "rain check",
+    "variant": "AU",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "bbye",
+    "output": "bye",
+    "variant": "AU",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "i reckon we should go.",
+    "output": "I reckon we should go.",
+    "variant": "AU",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "lol",
+    "output": "lol",
+    "variant": "AU",
+    "typo_type": "none"
+  },
+  {
+    "input": "tbh",
+    "output": "tbh",
+    "variant": "AU",
+    "typo_type": "none"
+  },
+  {
+    "input": "highkey",
+    "output": "highkey",
+    "variant": "AU",
+    "typo_type": "none"
+  },
+  {
+    "input": "nvm",
+    "output": "nvm",
+    "variant": "AU",
+    "typo_type": "none"
+  },
+  {
+    "input": "I will sensd you the document later today.",
+    "output": "I will send you the document later today.",
+    "variant": "AU",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Bad signal here, might cut uot.",
+    "output": "Bad signal here, might cut out.",
+    "variant": "AU",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "slee well",
+    "output": "sleep well",
+    "variant": "AU",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "put on your sunnies, it's bright.",
+    "output": "Put on your sunnies, it's bright.",
+    "variant": "AU",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Can you send me the report by en of day?",
+    "output": "Can you send me the report by end of day?",
+    "variant": "AU",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "raain chek",
+    "output": "rain check",
+    "variant": "AU",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "mk",
+    "output": "kk",
+    "variant": "AU",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "i will send yiu the documenr later today",
+    "output": "I will send you the document later today.",
     "variant": "AU",
     "typo_type": "corrupted"
   },
@@ -132,28 +210,136 @@
     "typo_type": "none"
   },
   {
-    "input": "Let me know when youre free to disCuss this.",
-    "output": "Let me know when you're free to discuss this.",
+    "input": "Let me cheque my schedule and get back to you.",
+    "output": "Let me cheque my schedule and get back to you.",
+    "variant": "AU",
+    "typo_type": "none"
+  },
+  {
+    "input": "What time doees tge meeting sart?",
+    "output": "What time does the meeting start?",
     "variant": "AU",
     "typo_type": "corrupted"
   },
   {
-    "input": "Thjy manoeuvred through traffi",
-    "output": "They manoeuvred through traffic.",
+    "input": "ga",
+    "output": "ya",
     "variant": "AU",
     "typo_type": "corrupted"
   },
   {
-    "input": "wanna coem",
-    "output": "wanna come",
+    "input": "you b there",
+    "output": "you there",
     "variant": "AU",
     "typo_type": "corrupted"
   },
   {
-    "input": "That bloke ix a ripper!",
-    "output": "That bloke is a ripper!",
+    "input": "I havh a Meeting at three o'cliock tnis afternoon",
+    "output": "I have a meeting at three o'clock this afternoon.",
     "variant": "AU",
     "typo_type": "corrupted"
+  },
+  {
+    "input": "hold n",
+    "output": "hold on",
+    "variant": "AU",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "brb",
+    "output": "brb",
+    "variant": "AU",
+    "typo_type": "none"
+  },
+  {
+    "input": "jk",
+    "output": "jk",
+    "variant": "AU",
+    "typo_type": "none"
+  },
+  {
+    "input": "k",
+    "output": "k",
+    "variant": "AU",
+    "typo_type": "none"
+  },
+  {
+    "input": "i'll be out of office next Monday.",
+    "output": "I'll be out of office next Monday.",
+    "variant": "AU",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "wwhen you're fpee",
+    "output": "when you're free",
+    "variant": "AU",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "TGrab some snags for the barbie.",
+    "output": "Grab some snags for the barbie.",
+    "variant": "AU",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "yeah",
+    "output": "yeah",
+    "variant": "AU",
+    "typo_type": "none"
+  },
+  {
+    "input": "Sze wore her favourite pyjamas.",
+    "output": "She wore her favourite pyjamas.",
+    "variant": "AU",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "thhanks",
+    "output": "thanks",
+    "variant": "AU",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "leavig now",
+    "output": "leaving now",
+    "variant": "AU",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "kesp me posted",
+    "output": "keep me posted",
+    "variant": "AU",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "lit",
+    "output": "lit",
+    "variant": "AU",
+    "typo_type": "none"
+  },
+  {
+    "input": "al good",
+    "output": "all good",
+    "variant": "AU",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "thx",
+    "output": "thx",
+    "variant": "AU",
+    "typo_type": "none"
+  },
+  {
+    "input": "Please cataLogue all the items.",
+    "output": "Please catalogue all the items.",
+    "variant": "AU",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "rn",
+    "output": "rn",
+    "variant": "AU",
+    "typo_type": "none"
   },
   {
     "input": "I need to finish this by tonight.",
@@ -162,141 +348,111 @@
     "typo_type": "none"
   },
   {
-    "input": "thr defence team preparred their case.",
-    "output": "The defence team prepared their case.",
+    "input": "bd b right there",
+    "output": "be right there",
     "variant": "AU",
     "typo_type": "corrupted"
   },
   {
-    "input": "The draufht is cominyg through the window.",
-    "output": "The draught is coming through the window.",
+    "input": "Tgat doughnut looks edlicious.",
+    "output": "That doughnut looks delicious.",
     "variant": "AU",
     "typo_type": "corrupted"
   },
   {
-    "input": "Please let me knw if there's anything else you needfrom me before the meeting",
-    "output": "Please let me know if there's anything else you need from me before the meeting.",
+    "input": "latsr",
+    "output": "later",
     "variant": "AU",
     "typo_type": "corrupted"
   },
   {
-    "input": "sounrs good",
-    "output": "sounds good",
-    "variant": "AU",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "msis you",
-    "output": "miss you",
-    "variant": "AU",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "what's ths wfi password?",
-    "output": "What's the wifi password?",
-    "variant": "AU",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "be b there soon",
-    "output": "be there soon",
-    "variant": "AU",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "slay",
-    "output": "slay",
+    "input": "tbh",
+    "output": "tbh",
     "variant": "AU",
     "typo_type": "none"
   },
   {
-    "input": "Good morning! Hoe you hafe a Great day.",
-    "output": "Good morning! Hope you have a great day.",
+    "input": "love yok",
+    "output": "love you",
     "variant": "AU",
     "typo_type": "corrupted"
   },
   {
-    "input": "asap",
-    "output": "asap",
+    "input": "I a typing this message hoping the AI can understand me.",
+    "output": "I am typing this message hoping the AI can understand me.",
+    "variant": "AU",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I am looking forward to hearing from ypu soon.",
+    "output": "I am looking forward to hearing from you soon.",
+    "variant": "AU",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "hahv",
+    "output": "haha",
+    "variant": "AU",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "imho",
+    "output": "imho",
     "variant": "AU",
     "typo_type": "none"
   },
   {
-    "input": "say less",
-    "output": "say less",
+    "input": "Let's prioritise the urgent yasks.",
+    "output": "Let's prioritise the urgent tasks.",
+    "variant": "AU",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "helllo?",
+    "output": "hello?",
+    "variant": "AU",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "aait",
+    "output": "wait",
+    "variant": "AU",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "That doughnut looks delicious",
+    "output": "That doughnut looks delicious.",
+    "variant": "AU",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "G'day mate, how's it going?",
+    "output": "G'day mate, how's it going?",
     "variant": "AU",
     "typo_type": "none"
   },
   {
-    "input": "be b tmhere soon",
-    "output": "be there soon",
-    "variant": "AU",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "hhhe",
-    "output": "hehe",
-    "variant": "AU",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "how long will this take?",
-    "output": "How long will this take?",
-    "variant": "AU",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "Can't tsalk right now, text md.",
-    "output": "Can't talk right now, text me.",
-    "variant": "AU",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "wanna hang",
-    "output": "wanna hang",
+    "input": "be right there",
+    "output": "be right there",
     "variant": "AU",
     "typo_type": "none"
   },
   {
-    "input": "mayhe later",
+    "input": "happy birthdy",
+    "output": "happy birthday",
+    "variant": "AU",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "maybe laetr",
     "output": "maybe later",
     "variant": "AU",
     "typo_type": "corrupted"
   },
   {
-    "input": "Good morning! Hope ylu hav a great dday.",
-    "output": "Good morning! Hope you have a great day.",
+    "input": "I'll get back to you b as soon as I b cn.",
+    "output": "I'll get back to you as soon as I can.",
     "variant": "AU",
     "typo_type": "corrupted"
-  },
-  {
-    "input": "Ho there! Nice to hear ffrom you.",
-    "output": "Hi there! Nice to hear from you.",
-    "variant": "AU",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "My phone is almos dead.",
-    "output": "My phone is almost dead.",
-    "variant": "AU",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "facts",
-    "output": "facts",
-    "variant": "AU",
-    "typo_type": "none"
-  },
-  {
-    "input": "The tema analysed thhe data carefully.",
-    "output": "The team analysed the data carefully.",
-    "variant": "AU",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "congrats",
-    "output": "congrats",
-    "variant": "AU",
-    "typo_type": "none"
   }
 ]

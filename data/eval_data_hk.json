@@ -1,21 +1,81 @@
 [
   {
-    "input": "coo",
-    "output": "cool",
+    "input": "ho cap",
+    "output": "no cap",
     "variant": "HK",
     "typo_type": "corrupted"
   },
   {
-    "input": "yes",
-    "output": "yes",
+    "input": "That coughnut n loomks Delicious",
+    "output": "That doughnut looks delicious.",
+    "variant": "HK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "No rush",
+    "output": "no rush",
+    "variant": "HK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "keep me poshed",
+    "output": "keep me posted",
+    "variant": "HK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "you sown",
+    "output": "you down",
+    "variant": "HK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "sry",
+    "output": "sry",
     "variant": "HK",
     "typo_type": "none"
   },
   {
-    "input": "mkod",
-    "output": "mood",
+    "input": "Hello, how are you? I am fine, thank you.",
+    "output": "Hello, how are you? I am fine, thank you.",
+    "variant": "HK",
+    "typo_type": "none"
+  },
+  {
+    "input": "thay sounds great, count me in!",
+    "output": "That sounds great, count me in!",
     "variant": "HK",
     "typo_type": "corrupted"
+  },
+  {
+    "input": "checking in",
+    "output": "checking in",
+    "variant": "HK",
+    "typo_type": "none"
+  },
+  {
+    "input": "what's uo",
+    "output": "what's up",
+    "variant": "HK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "mid",
+    "output": "mid",
+    "variant": "HK",
+    "typo_type": "none"
+  },
+  {
+    "input": "omw",
+    "output": "omw",
+    "variant": "HK",
+    "typo_type": "none"
+  },
+  {
+    "input": "thinking of you",
+    "output": "thinking of you",
+    "variant": "HK",
+    "typo_type": "none"
   },
   {
     "input": "cap",
@@ -24,278 +84,374 @@
     "typo_type": "none"
   },
   {
-    "input": "The hheatre is just around the corner.",
-    "output": "The theatre is just around the corner.",
+    "input": "Can you please call me when you yet a chance?",
+    "output": "Can you please call me when you get a chance?",
     "variant": "HK",
     "typo_type": "corrupted"
   },
   {
-    "input": "Todayy I am goin to the office to work on a new project.",
-    "output": "Today I am going to the office to work on a new project.",
+    "input": "bye",
+    "output": "bye",
+    "variant": "HK",
+    "typo_type": "none"
+  },
+  {
+    "input": "Let's gO yum cha tomorrow.",
+    "output": "Let's go yum cha tomorrow.",
     "variant": "HK",
     "typo_type": "corrupted"
   },
   {
-    "input": "The neighbor's dog gas been barking all night.",
-    "output": "The neighbor's dog has been barking all night.",
-    "variant": "HK",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "vibse",
+    "input": "ibes",
     "output": "vibes",
     "variant": "HK",
     "typo_type": "corrupted"
   },
   {
-    "input": "let me know ahen you're free to discuss this.",
-    "output": "Let me know when you're free to discuss this.",
+    "input": "That sounds great, count Me in!",
+    "output": "That sounds great, count me in!",
     "variant": "HK",
     "typo_type": "corrupted"
   },
   {
-    "input": "appreciate ti",
-    "output": "appreciate it",
+    "input": "anyone home",
+    "output": "anyone home",
+    "variant": "HK",
+    "typo_type": "none"
+  },
+  {
+    "input": "means a llt",
+    "output": "means a lot",
     "variant": "HK",
     "typo_type": "corrupted"
   },
   {
-    "input": "yah",
-    "output": "yeah",
+    "input": "Let's prioritise the urgent tasks.",
+    "output": "Let's prioritise the urgent tasks.",
     "variant": "HK",
-    "typo_type": "corrupted"
+    "typo_type": "none"
   },
   {
-    "input": "Ill get back to v you as soon as I can.",
-    "output": "I'll get back to you as soon as I can.",
-    "variant": "HK",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "The jewelry  store si n closed toDay.",
-    "output": "The jewelry store is closed today.",
-    "variant": "HK",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "qick question",
-    "output": "quick question",
-    "variant": "HK",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "thqnk you wo huch",
+    "input": "thankk yo eo much",
     "output": "thank you so much",
     "variant": "HK",
     "typo_type": "corrupted"
   },
   {
-    "input": "sohnds good",
-    "output": "sounds good",
-    "variant": "HK",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "asap",
-    "output": "asap",
+    "input": "I will send you the document later today.",
+    "output": "I will send you the document later today.",
     "variant": "HK",
     "typo_type": "none"
   },
   {
-    "input": "mo cap",
-    "output": "no cap",
+    "input": "can tou explain this to me?",
+    "output": "Can you explain this to me?",
     "variant": "HK",
     "typo_type": "corrupted"
   },
   {
-    "input": "Hi there! Nice to hear from you.",
-    "output": "Hi there! Nice to hear from you.",
+    "input": "Tge wet market cloes early.",
+    "output": "The wet market closes early.",
+    "variant": "HK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Looking frward tto seeing everyone at the event this weekend.",
+    "output": "Looking forward to seeing everyone at the event this weekend.",
+    "variant": "HK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "thank you os much",
+    "output": "thank you so much",
+    "variant": "HK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Fighting! GOod luck!",
+    "output": "Fighting! Good luck!",
+    "variant": "HK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Please catalogue al the ietms.",
+    "output": "Please catalogue all the items.",
+    "variant": "HK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "btw",
+    "output": "btw",
     "variant": "HK",
     "typo_type": "none"
   },
   {
-    "input": "hey",
-    "output": "hey",
+    "input": "I made qan omelette for breakfast.",
+    "output": "I made an omelette for breakfast.",
+    "variant": "HK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "here",
+    "output": "here",
     "variant": "HK",
     "typo_type": "none"
   },
   {
-    "input": "Can we reschedule ouf meeing to next week?",
-    "output": "Can we reschedule our meeting to next week?",
+    "input": "Tghe bulding has ten storeys.",
+    "output": "The building has ten storeys.",
     "variant": "HK",
     "typo_type": "corrupted"
   },
   {
-    "input": "That doughnut loks deilcious.",
-    "output": "That doughnut looks delicious.",
-    "variant": "HK",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "rain checl",
-    "output": "rain check",
-    "variant": "HK",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "text ne",
-    "output": "text me",
-    "variant": "HK",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "The progrzmme sarts at eighht o'clock.",
-    "output": "The programme starts at eight o'clock.",
-    "variant": "HK",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "quickk questoon",
-    "output": "quick question",
-    "variant": "HK",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "Where hsould we meet b for dinner?",
-    "output": "Where should we meet for dinner?",
-    "variant": "HK",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "Hey, what's up? How'S it going?",
-    "output": "Hey, what's up? How's it going?",
-    "variant": "HK",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "qiuck suestion",
-    "output": "quick question",
-    "variant": "HK",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "I rscognise that thjs is challenging.",
+    "input": "I recognise that this is challenging.",
     "output": "I recognise that this is challenging.",
     "variant": "HK",
-    "typo_type": "corrupted"
+    "typo_type": "none"
   },
   {
-    "input": "I would like to schedule a meeting fr tomorrow.",
-    "output": "I would like to schedule a meeting for tomorrow.",
+    "input": "nzh",
+    "output": "nah",
     "variant": "HK",
     "typo_type": "corrupted"
   },
   {
-    "input": "The deadline has been extended to next Friday.",
-    "output": "The deadline has been extended to next Friday.",
+    "input": "just wanted to cheque in and see how you're doing.",
+    "output": "Just wanted to cheque in and see how you're doing.",
+    "variant": "HK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "checiing in",
+    "output": "checking in",
+    "variant": "HK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Please let me know If there's anything else you need from me before the jeeting.",
+    "output": "Please let me know if there's anything else you need from me before the meeting.",
+    "variant": "HK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "thank yOu do much",
+    "output": "thank you so much",
+    "variant": "HK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Lwt me chequre my schedule and get back to ypu.",
+    "output": "Let me cheque my schedule and get back to you.",
+    "variant": "HK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "No worries, take your tjme",
+    "output": "No worries, take your time.",
+    "variant": "HK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "aiya, I forgot my octopus card!",
+    "output": "Aiya, I forgot my octopus card!",
+    "variant": "HK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "be there soon",
+    "output": "be there soon",
     "variant": "HK",
     "typo_type": "none"
   },
   {
-    "input": "appeciate t",
-    "output": "appreciate it",
+    "input": "I need to refeul n thw car.",
+    "output": "I need to refuel the car.",
     "variant": "HK",
     "typo_type": "corrupted"
   },
   {
-    "input": "truk",
-    "output": "true",
+    "input": "rn",
+    "output": "rn",
+    "variant": "HK",
+    "typo_type": "none"
+  },
+  {
+    "input": "how long wiil this take?",
+    "output": "How long will this take?",
     "variant": "HK",
     "typo_type": "corrupted"
   },
   {
-    "input": "see you late",
-    "output": "see you later",
+    "input": "I have a  meeting at thdee o'clock this afternoon.",
+    "output": "I have a meeting at three o'clock this afternoon.",
     "variant": "HK",
     "typo_type": "corrupted"
   },
   {
-    "input": "Can ytu please help me with this problem?",
-    "output": "Can you please help me with this problem?",
+    "input": "k",
+    "output": "kk",
     "variant": "HK",
     "typo_type": "corrupted"
   },
   {
-    "input": "when oyu're free",
-    "output": "when you're free",
+    "input": "Let's prioritise the urgent taskt.",
+    "output": "Let's prioritise the urgent tasks.",
     "variant": "HK",
     "typo_type": "corrupted"
   },
   {
-    "input": "wanna hanh",
-    "output": "wanna hang",
+    "input": "lowkey",
+    "output": "lowkey",
+    "variant": "HK",
+    "typo_type": "none"
+  },
+  {
+    "input": "This noe very nice wor.",
+    "output": "This one very nice wor.",
     "variant": "HK",
     "typo_type": "corrupted"
   },
   {
-    "input": "hrue",
-    "output": "true",
+    "input": "Send me The address pleaae.",
+    "output": "Send me the address please.",
     "variant": "HK",
     "typo_type": "corrupted"
   },
   {
-    "input": "hold oj",
-    "output": "hold on",
+    "input": "ype",
+    "output": "yep",
     "variant": "HK",
     "typo_type": "corrupted"
   },
   {
-    "input": "be right thre",
+    "input": "cll you later",
+    "output": "call you later",
+    "variant": "HK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Wby did you chagge the plan?",
+    "output": "Why did you change the plan?",
+    "variant": "HK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "good night",
+    "output": "good night",
+    "variant": "HK",
+    "typo_type": "none"
+  },
+  {
+    "input": "wit",
+    "output": "wait",
+    "variant": "HK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "The draught iq coming through  the window.",
+    "output": "The draught is coming through the window.",
+    "variant": "HK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "just got your  message calling you hack.",
+    "output": "Just got your message, calling you back.",
+    "variant": "HK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "take your timd",
+    "output": "take your time",
+    "variant": "HK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "The deadline hazs veen extendded to next Friday.",
+    "output": "The deadline has been extended to next Friday.",
+    "variant": "HK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "vibes",
+    "output": "vibes",
+    "variant": "HK",
+    "typo_type": "none"
+  },
+  {
+    "input": "what's your favourite colour?",
+    "output": "What's your favourite colour?",
+    "variant": "HK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "My helper is on leaave today.",
+    "output": "My helper is on leave today.",
+    "variant": "HK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "aem",
+    "output": "atm",
+    "variant": "HK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Why did oyu change the plan?",
+    "output": "Why did you change the plan?",
+    "variant": "HK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "This n one very ncie wor.",
+    "output": "This one very nice wor.",
+    "variant": "HK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Please review the document and provide feedbaci.",
+    "output": "Please review the document and provide feedback.",
+    "variant": "HK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "bee right therr",
     "output": "be right there",
     "variant": "HK",
     "typo_type": "corrupted"
   },
   {
-    "input": "Hey, what'sup? How's it going?",
-    "output": "Hey, what's up? How's it going?",
+    "input": "n my way",
+    "output": "on my way",
     "variant": "HK",
     "typo_type": "corrupted"
   },
   {
-    "input": "text nme",
-    "output": "text me",
+    "input": "quick questtion",
+    "output": "quick question",
     "variant": "HK",
     "typo_type": "corrupted"
   },
   {
-    "input": "The ding ding is very slow.",
-    "output": "The ding ding is very slow.",
-    "variant": "HK",
-    "typo_type": "none"
-  },
-  {
-    "input": "Thix ctar siu s amazin lah!",
-    "output": "This char siu is amazing lah!",
+    "input": "sse you later",
+    "output": "see you later",
     "variant": "HK",
     "typo_type": "corrupted"
   },
   {
-    "input": "imo",
-    "output": "imo",
+    "input": "I would like to schedule a meeting for tomorrow.",
+    "output": "I would like to schedule a meeting for tomorrow.",
     "variant": "HK",
     "typo_type": "none"
   },
   {
-    "input": "fr",
-    "output": "fr",
-    "variant": "HK",
-    "typo_type": "none"
-  },
-  {
-    "input": "whtas up",
-    "output": "what's up",
+    "input": "im working from home today.",
+    "output": "I'm working from home today.",
     "variant": "HK",
     "typo_type": "corrupted"
   },
   {
-    "input": "Let me know if you have any questions.",
-    "output": "Let me know if you have any questions.",
-    "variant": "HK",
-    "typo_type": "none"
-  },
-  {
-    "input": "Can you ummarise the majn points?",
-    "output": "Can you summarise the main points?",
+    "input": "you u",
+    "output": "you up",
     "variant": "HK",
     "typo_type": "corrupted"
   }

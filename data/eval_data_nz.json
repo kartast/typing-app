@@ -1,302 +1,458 @@
 [
   {
+    "input": "I am typing tyis message hoping the AII can understand me.",
+    "output": "I am typing this message hoping the AI can understand me.",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Thank you for your help with this issue.",
+    "output": "Thank you for your help with this issue.",
+    "variant": "NZ",
+    "typo_type": "none"
+  },
+  {
+    "input": "i'm dwon",
+    "output": "i'm down",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "The programme starts at eight o'clkck.",
+    "output": "The programme starts at eight o'clock.",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "sorRy",
+    "output": "sorry",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "ywp",
+    "output": "yep",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Let e fulfil your request.",
+    "output": "Let me fulfil your request.",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "She has a geat sensde of humour.",
+    "output": "She has a great sense of humour.",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Mum is cpming to visit next week.",
+    "output": "Mum is coming to visit next week.",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "okay",
+    "output": "okay",
+    "variant": "NZ",
+    "typo_type": "none"
+  },
+  {
     "input": "g2g",
     "output": "g2g",
     "variant": "NZ",
     "typo_type": "none"
   },
   {
-    "input": "pls",
-    "output": "pls",
-    "variant": "NZ",
-    "typo_type": "none"
-  },
-  {
-    "input": "asap",
-    "output": "asap",
-    "variant": "NZ",
-    "typo_type": "none"
-  },
-  {
-    "input": "Kust finished the presentation, ready for tomorrow's meeting.",
-    "output": "Just finished the presentation, ready for tomorrow's meeting.",
+    "input": "sweet as, bro!",
+    "output": "Sweet as, bro!",
     "variant": "NZ",
     "typo_type": "corrupted"
   },
   {
-    "input": "let me know io ypu have b nay questions.",
-    "output": "Let me know if you have any questions.",
+    "input": "I wanted to follow up on okur conversation from yesterday about the project timeline.",
+    "output": "I wanted to follow up on our conversation from yesterday about the project timeline.",
     "variant": "NZ",
     "typo_type": "corrupted"
   },
   {
-    "input": "Whanau iss coming over for dinneer.",
-    "output": "Whanau is coming over for dinner.",
-    "variant": "NZ",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "bet",
-    "output": "bet",
-    "variant": "NZ",
-    "typo_type": "none"
-  },
-  {
-    "input": "got it",
-    "output": "got it",
-    "variant": "NZ",
-    "typo_type": "none"
-  },
-  {
-    "input": "leaving nos",
-    "output": "leaving now",
-    "variant": "NZ",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "bad signal here, might cut uot.",
-    "output": "Bad signal here, might cut out.",
-    "variant": "NZ",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "CAn you explain  this to me?",
-    "output": "Can you explain this to me?",
-    "variant": "NZ",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "let's prioriitse the urgentt tasks.",
-    "output": "Let's prioritise the urgent tasks.",
-    "variant": "NZ",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "good niight",
-    "output": "good night",
-    "variant": "NZ",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "when you're fee",
-    "output": "when you're free",
-    "variant": "NZ",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "What time does he meeting start?",
-    "output": "What time does the meeting start?",
-    "variant": "NZ",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "i have a meeting at tthree o'clock  his afternoon.",
-    "output": "I have a meeting at three o'clock this afternoon.",
-    "variant": "NZ",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "the artefcat was rfound in Egypt.",
-    "output": "The artefact was found in Egypt.",
-    "variant": "NZ",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "Tat doughnut ooks delicious",
-    "output": "That doughnut looks delicious.",
-    "variant": "NZ",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "It was a frey and cloudy day.",
-    "output": "It was a grey and cloudy day.",
-    "variant": "NZ",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "running late",
-    "output": "running late",
-    "variant": "NZ",
-    "typo_type": "none"
-  },
-  {
-    "input": "coming",
-    "output": "coming",
-    "variant": "NZ",
-    "typo_type": "none"
-  },
-  {
-    "input": "yThat doughnut looks delicious.",
-    "output": "That doughnut looks delicious.",
-    "variant": "NZ",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "smh",
-    "output": "smh",
-    "variant": "NZ",
-    "typo_type": "none"
-  },
-  {
-    "input": "call you later",
-    "output": "call you later",
-    "variant": "NZ",
-    "typo_type": "none"
-  },
-  {
-    "input": "np",
-    "output": "np",
-    "variant": "NZ",
-    "typo_type": "none"
-  },
-  {
-    "input": "I'll get bback o you as soon as I cab.",
-    "output": "I'll get back to you as soon as I can.",
-    "variant": "NZ",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "k'm in",
-    "output": "i'm in",
-    "variant": "NZ",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "Choice bro, see ylou later.",
-    "output": "Choice bro, see you later.",
-    "variant": "NZ",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "Th weather iq beautiful today.",
-    "output": "The weather is beautiful today.",
-    "variant": "NZ",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "yup",
-    "output": "yup",
-    "variant": "NZ",
-    "typo_type": "none"
-  },
-  {
-    "input": "you dlwn",
-    "output": "you down",
-    "variant": "NZ",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "sunds great",
-    "output": "sounds great",
-    "variant": "NZ",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "moox",
-    "output": "mood",
-    "variant": "NZ",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "omw",
-    "output": "omw",
-    "variant": "NZ",
-    "typo_type": "none"
-  },
-  {
-    "input": "you there",
-    "output": "you there",
-    "variant": "NZ",
-    "typo_type": "none"
-  },
-  {
-    "input": "I'll follow up with yo tomorrow morning.",
-    "output": "I'll follow up with you tomorrow morning.",
-    "variant": "NZ",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "Lett me  know if you have any questionzs.",
-    "output": "Let me know if you have any questions.",
-    "variant": "NZ",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "text me",
-    "output": "text me",
-    "variant": "NZ",
-    "typo_type": "none"
-  },
-  {
-    "input": "Looking forward t seeing everyone at the event this weeksend.",
-    "output": "Looking forward to seeing everyone at the event this weekend.",
-    "variant": "NZ",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "Good morning! Hope you haVe a great day.",
-    "output": "Good morning! Hope you have a great day.",
-    "variant": "NZ",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "Justwanted to cheque in anD see how you're doing.",
+    "input": "Just wanted to cheqie in ans see howw you're doing.",
     "output": "Just wanted to cheque in and see how you're doing.",
     "variant": "NZ",
     "typo_type": "corrupted"
   },
   {
-    "input": "lovd tou",
-    "output": "love you",
-    "variant": "NZ",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "how arw you",
-    "output": "how are you",
-    "variant": "NZ",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "noep",
-    "output": "nope",
-    "variant": "NZ",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "brt",
-    "output": "brt",
+    "input": "soon",
+    "output": "soon",
     "variant": "NZ",
     "typo_type": "none"
   },
   {
-    "input": "lowkey",
-    "output": "lowkey",
-    "variant": "NZ",
-    "typo_type": "none"
-  },
-  {
-    "input": "hwllo?",
-    "output": "hello?",
+    "input": "jiss you",
+    "output": "miss you",
     "variant": "NZ",
     "typo_type": "corrupted"
   },
   {
-    "input": "Grab your jandals, werd going to the beach.",
-    "output": "Grab your jandals, we're going to the beach.",
+    "input": "ttyl",
+    "output": "ttyl",
+    "variant": "NZ",
+    "typo_type": "none"
+  },
+  {
+    "input": "Hi there! Nice b to heatr from you",
+    "output": "Hi there! Nice to hear from you.",
     "variant": "NZ",
     "typo_type": "corrupted"
   },
   {
-    "input": "imho",
-    "output": "imho",
+    "input": "ong",
+    "output": "ong",
     "variant": "NZ",
     "typo_type": "none"
   },
   {
-    "input": "sus",
-    "output": "sus",
+    "input": "cOunt me in",
+    "output": "count me in",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "maybe lter",
+    "output": "maybe later",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "The tea analysed the dqatacarefully",
+    "output": "The team analysed the data carefully.",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "now",
+    "output": "now",
     "variant": "NZ",
     "typo_type": "none"
+  },
+  {
+    "input": "I would like to scedule a meeting for fomorrow.",
+    "output": "I would like to schedule a meeting for tomorrow.",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "i'm working from home today.",
+    "output": "I'm working from home today.",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "lmao",
+    "output": "lmao",
+    "variant": "NZ",
+    "typo_type": "none"
+  },
+  {
+    "input": "please catlaogue all tthe item.",
+    "output": "Please catalogue all the items.",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "jk",
+    "output": "jk",
+    "variant": "NZ",
+    "typo_type": "none"
+  },
+  {
+    "input": "vibes",
+    "output": "vibes",
+    "variant": "NZ",
+    "typo_type": "none"
+  },
+  {
+    "input": "Can you please call me when yo get a chance?",
+    "output": "Can you please call me when you get a chance?",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I forgot my phone at homs.",
+    "output": "I forgot my phone at home.",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Hard out, that  was intense!",
+    "output": "Hard out, that was intense!",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "The artefact was fond in Evypt.",
+    "output": "The artefact was found in Egypt.",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Everything is going according to plan.",
+    "output": "Everything is going according to plan.",
+    "variant": "NZ",
+    "typo_type": "none"
+  },
+  {
+    "input": "leaving v now",
+    "output": "leaving now",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "almkst there",
+    "output": "almost there",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Let m cheque my schedule and geh back to you.",
+    "output": "Let me cheque my schedule and get back to you.",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "jep",
+    "output": "yep",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "congrats",
+    "output": "congrats",
+    "variant": "NZ",
+    "typo_type": "none"
+  },
+  {
+    "input": "hzha",
+    "output": "haha",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Had signal here, might cut uot.",
+    "output": "Bad signal here, might cut out.",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I will send you the docuent later today.",
+    "output": "I will send you the document later today.",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I forgot my phoNe at home.",
+    "output": "I forgot my phone at home.",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "ccool",
+    "output": "cool",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "havee fun",
+    "output": "have fun",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "chefking n",
+    "output": "checking in",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "otw",
+    "output": "otw",
+    "variant": "NZ",
+    "typo_type": "none"
+  },
+  {
+    "input": "I need to aapologise for being late.",
+    "output": "I need to apologise for being late.",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "whrn you're free",
+    "output": "when you're free",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I will send you the documnt later today.",
+    "output": "I will send you the document later today.",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "ook",
+    "output": "ok",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "means a lot",
+    "output": "means a lot",
+    "variant": "NZ",
+    "typo_type": "none"
+  },
+  {
+    "input": "Let me knoW when you'de free to discuss thos.",
+    "output": "Let me know when you're free to discuss this.",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "whre are you",
+    "output": "where are you",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "thankx",
+    "output": "thanks",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "when will you be available?",
+    "output": "When will you be available?",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "th tamariki arf playing outside.",
+    "output": "The tamariki are playing outside.",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "This is taking longwr than expected.",
+    "output": "This is taking longer than expected.",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "tbh",
+    "output": "tbh",
+    "variant": "NZ",
+    "typo_type": "none"
+  },
+  {
+    "input": "what'q up",
+    "output": "what's up",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "i'm down",
+    "output": "i'm down",
+    "variant": "NZ",
+    "typo_type": "none"
+  },
+  {
+    "input": "text em",
+    "output": "text me",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "lol",
+    "output": "lol",
+    "variant": "NZ",
+    "typo_type": "none"
+  },
+  {
+    "input": "lmao",
+    "output": "lmao",
+    "variant": "NZ",
+    "typo_type": "none"
+  },
+  {
+    "input": "whede are you",
+    "output": "where are you",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "gext me",
+    "output": "text me",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "wanna v come",
+    "output": "wanna come",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "It was a grey and cloudy day.",
+    "output": "It was a grey and cloudy day.",
+    "variant": "NZ",
+    "typo_type": "none"
+  },
+  {
+    "input": "k",
+    "output": "k",
+    "variant": "NZ",
+    "typo_type": "none"
+  },
+  {
+    "input": "The team analysde the data crefully.",
+    "output": "The team analysed the data carefully.",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "quikc question",
+    "output": "quick question",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "plewse catalogue all the items.",
+    "output": "Please catalogue all the items.",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "thank you so juch",
+    "output": "thank you so much",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "just checkinbg",
+    "output": "just checking",
+    "variant": "NZ",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "yes",
+    "output": "yes",
+    "variant": "NZ",
+    "typo_type": "none"
+  },
+  {
+    "input": "where are tou",
+    "output": "where are you",
+    "variant": "NZ",
+    "typo_type": "corrupted"
   }
 ]

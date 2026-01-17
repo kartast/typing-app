@@ -1,133 +1,169 @@
 [
   {
-    "input": "On my way now, se you soon.",
-    "output": "On my way now, see you soon.",
+    "input": "thInking of you",
+    "output": "thinking of you",
     "variant": "US",
     "typo_type": "corrupted"
   },
   {
-    "input": "uhe theater ks jzst ariund the corner.",
-    "output": "The theater is just around the corner.",
+    "input": "This iz taking ionger han expected.",
+    "output": "This is taking longer than expected.",
     "variant": "US",
     "typo_type": "corrupted"
   },
   {
-    "input": "sry",
-    "output": "sry",
+    "input": "brb",
+    "output": "brb",
     "variant": "US",
     "typo_type": "none"
   },
   {
-    "input": "bussin",
-    "output": "bussin",
-    "variant": "US",
-    "typo_type": "none"
-  },
-  {
-    "input": "wtf",
-    "output": "wtf",
-    "variant": "US",
-    "typo_type": "none"
-  },
-  {
-    "input": "I have a eeting at three o'clock this afternoon.",
-    "output": "I have a meeting at three o'clock this afternoon.",
+    "input": "let me knos",
+    "output": "let me know",
     "variant": "US",
     "typo_type": "corrupted"
   },
   {
-    "input": "I need to finish thos by tonihht.",
-    "output": "I need to finish this by tonight.",
-    "variant": "US",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "i'm down",
-    "output": "i'm down",
+    "input": "haha",
+    "output": "haha",
     "variant": "US",
     "typo_type": "none"
   },
   {
-    "input": "nvm",
-    "output": "nvm",
+    "input": "I'm gonna grab some coffee.",
+    "output": "I'm gonna grab some coffee.",
     "variant": "US",
     "typo_type": "none"
   },
   {
-    "input": "Hello, how are v yoi? I am fine, thank you.",
-    "output": "Hello, how are you? I am fine, thank you.",
-    "variant": "US",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "Please catalog all the iteMs.",
+    "input": "Plexse catalog all thw items.",
     "output": "Please catalog all the items.",
     "variant": "US",
     "typo_type": "corrupted"
   },
   {
-    "input": "What time does the meetibg start?",
-    "output": "What time does the meeting start?",
+    "input": "We shpuld totally do that.",
+    "output": "We should totally do that.",
     "variant": "US",
     "typo_type": "corrupted"
   },
   {
-    "input": "can uou pleaae help me with thiq problem?",
-    "output": "Can you please help me with this problem?",
+    "input": "count mE in",
+    "output": "count me in",
     "variant": "US",
     "typo_type": "corrupted"
   },
   {
-    "input": "I forgot my phkne at home.",
+    "input": "That's lit, tor real!",
+    "output": "That's lit, for real!",
+    "variant": "US",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I forgpt my pbone at home.",
     "output": "I forgot my phone at home.",
     "variant": "US",
     "typo_type": "corrupted"
   },
   {
-    "input": "Gello, how aee you? I am fune, thank ypu.",
-    "output": "Hello, how are you? I am fine, thank you.",
-    "variant": "US",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "idc",
-    "output": "idc",
-    "variant": "US",
-    "typo_type": "none"
-  },
-  {
-    "input": "Can you send me teh report ny end b of dsy?",
-    "output": "Can you send me the report by end of day?",
-    "variant": "US",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "Let's hang out this weekend.",
-    "output": "Let's hang out this weekend.",
-    "variant": "US",
-    "typo_type": "none"
-  },
-  {
-    "input": "I made ah omelet for breakfast.",
+    "input": "I mave an omelet for breakfat",
     "output": "I made an omelet for breakfast.",
     "variant": "US",
     "typo_type": "corrupted"
   },
   {
-    "input": "greaf",
+    "input": "when you're free",
+    "output": "when you're free",
+    "variant": "US",
+    "typo_type": "none"
+  },
+  {
+    "input": "Good morning! Hopre you have a great day.",
+    "output": "Good morning! Hope you have a great day.",
+    "variant": "US",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Let me fulfill your request.",
+    "output": "Let me fulfill your request.",
+    "variant": "US",
+    "typo_type": "none"
+  },
+  {
+    "input": "means a lot",
+    "output": "means a lot",
+    "variant": "US",
+    "typo_type": "none"
+  },
+  {
+    "input": "leaing now",
+    "output": "leaving now",
+    "variant": "US",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "miss yu",
+    "output": "miss you",
+    "variant": "US",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "mid",
+    "output": "mid",
+    "variant": "US",
+    "typo_type": "none"
+  },
+  {
+    "input": "you good",
+    "output": "you good",
+    "variant": "US",
+    "typo_type": "none"
+  },
+  {
+    "input": "anyone hokme",
+    "output": "anyone home",
+    "variant": "US",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "ong",
+    "output": "ong",
+    "variant": "US",
+    "typo_type": "none"
+  },
+  {
+    "input": "grat",
     "output": "great",
     "variant": "US",
     "typo_type": "corrupted"
   },
   {
-    "input": "cominG",
-    "output": "coming",
+    "input": "Let's prioritize teh urgent tasks.",
+    "output": "Let's prioritize the urgent tasks.",
     "variant": "US",
     "typo_type": "corrupted"
   },
   {
-    "input": "sAme",
-    "output": "same",
+    "input": "brb",
+    "output": "brb",
+    "variant": "US",
+    "typo_type": "none"
+  },
+  {
+    "input": "The defenxe team prepared their case.",
+    "output": "The defense team prepared their case.",
+    "variant": "US",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "cool",
+    "output": "cool",
+    "variant": "US",
+    "typo_type": "none"
+  },
+  {
+    "input": "The deadline has been exxtended t next Friday.",
+    "output": "The deadline has been extended to next Friday.",
     "variant": "US",
     "typo_type": "corrupted"
   },
@@ -138,164 +174,284 @@
     "typo_type": "none"
   },
   {
-    "input": "That's awesome duse!",
-    "output": "That's awesome, dude!",
-    "variant": "US",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "yoh down",
-    "output": "you down",
-    "variant": "US",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "Lt em know if ylu nee anything.",
-    "output": "Let me know if you need anything.",
-    "variant": "US",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "Where n should we meet for dinner?",
-    "output": "Where should we meet for dinner?",
-    "variant": "US",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "i'm skeptical agout yhe results.",
-    "output": "I'm skeptical about the results.",
-    "variant": "US",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "atmm",
-    "output": "atm",
-    "variant": "US",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "Hk there! Nice to hear from you.",
-    "output": "Hi there! Nice to hear from you.",
-    "variant": "US",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "cheking in",
-    "output": "checking in",
-    "variant": "US",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "worf",
-    "output": "word",
-    "variant": "US",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "gye",
-    "output": "bye",
-    "variant": "US",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "TThe quikc broswn fox jumps ovee the lasy dog.",
-    "output": "The quick brown fox jumps over the lazy dog.",
-    "variant": "US",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "They maneuvererd through traffic.",
-    "output": "They maneuvered through traffic.",
-    "variant": "US",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "hTe jeWelry store ls closed todwy.",
-    "output": "The jewelry store is closed today.",
-    "variant": "US",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "He as a thick mustache",
-    "output": "He has a thick mustache.",
-    "variant": "US",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "tha'ts awesome, dude!",
-    "output": "That's awesome, dude!",
-    "variant": "US",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "hapy birthdayy",
-    "output": "happy birthday",
-    "variant": "US",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "She's verj skillful at her job.",
-    "output": "She's very skillful at her job.",
-    "variant": "US",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "The jrwelry syore is closed today.",
-    "output": "The jewelry store is closed today.",
-    "variant": "US",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "happy brthday",
-    "output": "happy birthday",
-    "variant": "US",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "Can you esplain this  to me?",
-    "output": "Can you explain this to me?",
-    "variant": "US",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "no problem",
-    "output": "no problem",
+    "input": "lit",
+    "output": "lit",
     "variant": "US",
     "typo_type": "none"
   },
   {
-    "input": "pls",
-    "output": "pls",
+    "input": "lowkey",
+    "output": "lowkey",
     "variant": "US",
     "typo_type": "none"
   },
   {
-    "input": "HHi there! Nice to hfar from you.",
-    "output": "Hi there! Nice to hear from you.",
+    "input": "g2g",
+    "output": "g2g",
+    "variant": "US",
+    "typo_type": "none"
+  },
+  {
+    "input": "I think we should discuss this further.",
+    "output": "I think we should discuss this further.",
+    "variant": "US",
+    "typo_type": "none"
+  },
+  {
+    "input": "must checikng",
+    "output": "just checking",
     "variant": "US",
     "typo_type": "corrupted"
   },
   {
-    "input": "hxve fun",
-    "output": "have fun",
+    "input": "I'll mEet b you af the center of toswn.",
+    "output": "I'll meet you at the center of town.",
     "variant": "US",
     "typo_type": "corrupted"
   },
   {
-    "input": "It wss a gray an cloudy dy.",
+    "input": "sorry",
+    "output": "sorry",
+    "variant": "US",
+    "typo_type": "none"
+  },
+  {
+    "input": "await",
+    "output": "wait",
+    "variant": "US",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "nu rush",
+    "output": "no rush",
+    "variant": "US",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "gteat",
+    "output": "great",
+    "variant": "US",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "rnuning late",
+    "output": "running late",
+    "variant": "US",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Ir was a ggay and cloudy day",
     "output": "It was a gray and cloudy day.",
     "variant": "US",
     "typo_type": "corrupted"
   },
   {
-    "input": "Something came up and I hsve to cncel.",
-    "output": "Something came up and I have to cancel.",
+    "input": "n cap",
+    "output": "no cap",
     "variant": "US",
     "typo_type": "corrupted"
   },
   {
-    "input": "U'm down for whatever.",
-    "output": "I'm down for whatever.",
+    "input": "No cap, that was amazinn.",
+    "output": "No cap, that was amazing.",
+    "variant": "US",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I am looking forward to hearing fron oyu soon.",
+    "output": "I am looking forward to hearing from you soon.",
+    "variant": "US",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "The jewelry store is closed today.",
+    "output": "The jewelry store is closed today.",
+    "variant": "US",
+    "typo_type": "none"
+  },
+  {
+    "input": "can you organize the meeting fpr tomorrow?",
+    "output": "Can you organize the meeting for tomorrow?",
+    "variant": "US",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "ehllo?",
+    "output": "hello?",
+    "variant": "US",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Yhat slaps, honestly.",
+    "output": "That slaps, honestly.",
+    "variant": "US",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Ob my way noa, see you soon.",
+    "output": "On my way now, see you soon.",
+    "variant": "US",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I completely understahd your v concern",
+    "output": "I completely understand your concern.",
+    "variant": "US",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "no ruhs",
+    "output": "no rush",
+    "variant": "US",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "No rush",
+    "output": "no rush",
+    "variant": "US",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "see you soom",
+    "output": "see you soon",
+    "variant": "US",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "rain n chcek",
+    "output": "rain check",
+    "variant": "US",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "hello",
+    "output": "hello",
+    "variant": "US",
+    "typo_type": "none"
+  },
+  {
+    "input": "Did you get my last message?",
+    "output": "Did you get my last message?",
+    "variant": "US",
+    "typo_type": "none"
+  },
+  {
+    "input": "call v you later",
+    "output": "call you later",
+    "variant": "US",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "on my aay",
+    "output": "on my way",
+    "variant": "US",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "hiss you",
+    "output": "miss you",
+    "variant": "US",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "o",
+    "output": "ok",
+    "variant": "US",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Senc me the address please.",
+    "output": "Send me the address please.",
+    "variant": "US",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "you uo",
+    "output": "you up",
+    "variant": "US",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "wtf",
+    "output": "wtf",
+    "variant": "US",
+    "typo_type": "none"
+  },
+  {
+    "input": "no rudh",
+    "output": "no rush",
+    "variant": "US",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Just finished the presentation, ready for tomorrow's meeting.",
+    "output": "Just finished the presentation, ready for tomorrow's meeting.",
+    "variant": "US",
+    "typo_type": "none"
+  },
+  {
+    "input": "omg",
+    "output": "omg",
+    "variant": "US",
+    "typo_type": "none"
+  },
+  {
+    "input": "tbh",
+    "output": "tbh",
+    "variant": "US",
+    "typo_type": "none"
+  },
+  {
+    "input": "Whhat's the wifi passwofrd?",
+    "output": "What's the wifi password?",
+    "variant": "US",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "hzave fun",
+    "output": "have fun",
+    "variant": "US",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "slay",
+    "output": "slay",
+    "variant": "US",
+    "typo_type": "none"
+  },
+  {
+    "input": "text ms",
+    "output": "text me",
+    "variant": "US",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "kk",
+    "output": "kk",
+    "variant": "US",
+    "typo_type": "none"
+  },
+  {
+    "input": "highkey",
+    "output": "highkey",
+    "variant": "US",
+    "typo_type": "none"
+  },
+  {
+    "input": "sounds godo",
+    "output": "sounds good",
+    "variant": "US",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "tou there",
+    "output": "you there",
+    "variant": "US",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "lfss",
+    "output": "less",
     "variant": "US",
     "typo_type": "corrupted"
   }

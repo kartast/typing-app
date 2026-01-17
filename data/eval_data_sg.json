@@ -1,285 +1,249 @@
 [
   {
-    "input": "g2g",
-    "output": "g2g",
-    "variant": "SG",
-    "typo_type": "none"
-  },
-  {
-    "input": "I will send you the document latertoday.",
-    "output": "I will send you the document later today.",
+    "input": "Where sould we meet for dinner?",
+    "output": "Where should we meet for dinner?",
     "variant": "SG",
     "typo_type": "corrupted"
   },
   {
-    "input": "hey",
-    "output": "hey",
-    "variant": "SG",
-    "typo_type": "none"
-  },
-  {
-    "input": "sbe you later",
-    "output": "see you later",
-    "variant": "SG",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "Hello, how arr you? I am fine, v thankyou.",
-    "output": "Hello, how are you? I am fine, thank you.",
-    "variant": "SG",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "see yo later",
-    "output": "see you later",
-    "variant": "SG",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "Ar tou free fpr lunch tomorrow?",
-    "output": "Are you free for lunch tomorrow?",
-    "variant": "SG",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "tex me",
+    "input": "text em",
     "output": "text me",
     "variant": "SG",
     "typo_type": "corrupted"
   },
   {
-    "input": "I'll authorise the payment today",
-    "output": "I'll authorise the payment today.",
-    "variant": "SG",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "the team analysed the data carefully.",
-    "output": "The team analysed the data carefully.",
-    "variant": "SG",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "Tou eat already or not?",
-    "output": "You eat already or not?",
-    "variant": "SG",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "iet m know if you have any questions.",
-    "output": "Let me know if you have any questions.",
-    "variant": "SG",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "anyone gome",
-    "output": "anyone home",
-    "variant": "SG",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "The aeroplanelanded on time",
-    "output": "The aeroplane landed on time.",
-    "variant": "SG",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "Today verg sian, nothing t do.",
-    "output": "Today very sian, nothing to do.",
-    "variant": "SG",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "they manoeuvred througj traffic.",
-    "output": "They manoeuvred through traffic.",
-    "variant": "SG",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "I completely understand your concern",
-    "output": "I completely understand your concern.",
-    "variant": "SG",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "call you ilater",
-    "output": "call you later",
-    "variant": "SG",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "be there soon",
-    "output": "be there soon",
-    "variant": "SG",
-    "typo_type": "none"
-  },
-  {
-    "input": "ikr",
-    "output": "ikr",
-    "variant": "SG",
-    "typo_type": "none"
-  },
-  {
-    "input": "i'm in",
-    "output": "i'm in",
-    "variant": "SG",
-    "typo_type": "none"
-  },
-  {
-    "input": "ngl",
-    "output": "ngl",
-    "variant": "SG",
-    "typo_type": "none"
-  },
-  {
-    "input": "sleep wrll",
-    "output": "sleep well",
-    "variant": "SG",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "helli?",
-    "output": "hello?",
-    "variant": "SG",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "can't make it",
-    "output": "can't make it",
-    "variant": "SG",
-    "typo_type": "none"
-  },
-  {
-    "input": "sounds great",
-    "output": "sounds great",
-    "variant": "SG",
-    "typo_type": "none"
-  },
-  {
-    "input": "maybE later",
-    "output": "maybe later",
-    "variant": "SG",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "i forgot my pphone at home.",
-    "output": "I forgot my phone at home.",
-    "variant": "SG",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "Mj phone is almosg dead.",
-    "output": "My phone is almost dead.",
-    "variant": "SG",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "atn",
-    "output": "atm",
-    "variant": "SG",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "fre",
-    "output": "fire",
-    "variant": "SG",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "I have a meeting at thrre o'clock this afternoon.",
-    "output": "I have a meeting at three o'clock this afternoon.",
-    "variant": "SG",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "ThE kopitiam downstairs got gpod kopi.",
-    "output": "The kopitiam downstairs got good kopi.",
-    "variant": "SG",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "lseep well",
-    "output": "sleep well",
-    "variant": "SG",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "cap",
-    "output": "cap",
-    "variant": "SG",
-    "typo_type": "none"
-  },
-  {
-    "input": "The artefact wass found in Egyopt.",
-    "output": "The artefact was found in Egypt.",
-    "variant": "SG",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "hez",
-    "output": "hey",
-    "variant": "SG",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "Hi therr! Nice to hear from gou.",
-    "output": "Hi there! Nice to hear from you.",
-    "variant": "SG",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "The prograMme starrts ta eght o'clock.",
-    "output": "The programme starts at eight o'clock.",
-    "variant": "SG",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "yeabh",
-    "output": "yeah",
-    "variant": "SG",
-    "typo_type": "corrupted"
-  },
-  {
-    "input": "It was a nrey and cloudy day.",
+    "input": "It wsa a n grey and cloudy day.",
     "output": "It was a grey and cloudy day.",
     "variant": "SG",
     "typo_type": "corrupted"
   },
   {
-    "input": "Good morning! Hope you  have a great dxy.",
-    "output": "Good morning! Hope you have a great day.",
+    "input": "I apologise vor any inconvenience this mathave caused you.",
+    "output": "I apologise for any inconvenience this may have caused you.",
     "variant": "SG",
     "typo_type": "corrupted"
   },
   {
-    "input": "today I am going to the office to work on a new project",
-    "output": "Today I am going to the office to work on a new project.",
+    "input": "goood morning",
+    "output": "good morning",
     "variant": "SG",
     "typo_type": "corrupted"
   },
   {
-    "input": "tganks",
-    "output": "thanks",
+    "input": "The team analyysed the data carefully.",
+    "output": "The team analysed the data carefully.",
     "variant": "SG",
     "typo_type": "corrupted"
   },
   {
-    "input": "sry",
-    "output": "sry",
+    "input": "mord",
+    "output": "mood",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "slay",
+    "output": "slay",
     "variant": "SG",
     "typo_type": "none"
   },
   {
-    "input": "whn you'de cree",
-    "output": "when you're free",
+    "input": "What's tme ifi pasword?",
+    "output": "What's the wifi password?",
     "variant": "SG",
     "typo_type": "corrupted"
   },
   {
-    "input": "idk",
-    "output": "idk",
+    "input": "Roday very sian, nothing gto do.",
+    "output": "Today very sian, nothing to do.",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I need to refuel the ar.",
+    "output": "I need to refuel the car.",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "ghe qick brown  fox mumps  over the oazy odg.",
+    "output": "The quick brown fox jumps over the lazy dog.",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Thia one macam not right lor.",
+    "output": "This one macam not right lor.",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "omw",
+    "output": "omw",
     "variant": "SG",
     "typo_type": "none"
+  },
+  {
+    "input": "I paiseh t ask hin leh.",
+    "output": "I paiseh to ask him leh.",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "jave  fun",
+    "output": "have fun",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Later ho makan you want?",
+    "output": "Later go makan, you want?",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Later go makan, you v want?",
+    "output": "Later go makan, you want?",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "have ufn",
+    "output": "have fun",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "That doughnut looks delicipus.",
+    "output": "That doughnut looks delicious.",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "She's v bery skilful at her job.",
+    "output": "She's very skilful at her job.",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Did ylu get my lash message?",
+    "output": "Did you get my last message?",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "tue",
+    "output": "true",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I'l meet yiu at the centre of town.",
+    "output": "I'll meet you at the centre of town.",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "woro",
+    "output": "word",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "She's very skiflult her jon.",
+    "output": "She's very skilful at her job.",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "ogod night",
+    "output": "good night",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "good luck",
+    "output": "good luck",
+    "variant": "SG",
+    "typo_type": "none"
+  },
+  {
+    "input": "hcecking in",
+    "output": "checking in",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "lek me know",
+    "output": "let me know",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "How coMe liddat one?",
+    "output": "How come liddat one?",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "got itt",
+    "output": "got it",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "can help me chope this seat ah?",
+    "output": "Can help me chope this seat ah?",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "let me know if you have any questions.",
+    "output": "Let me know if you have any questions.",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "What's your favourlte coklour?",
+    "output": "What's your favourite colour?",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "hou there",
+    "output": "you there",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I apologise fpr any inconvenience this may have caused you.",
+    "output": "I apologise for any inconvenience this may have caused you.",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "sajme",
+    "output": "same",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "eee you later",
+    "output": "see you later",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "sleep  well",
+    "output": "sleep well",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "niw",
+    "output": "now",
+    "variant": "SG",
+    "typo_type": "corrupted"
   },
   {
     "input": "fjre",
@@ -288,14 +252,206 @@
     "typo_type": "corrupted"
   },
   {
-    "input": "Wah, the qqueue so long sia.",
-    "output": "Wah, the queue so long sia.",
+    "input": "got t",
+    "output": "got it",
     "variant": "SG",
     "typo_type": "corrupted"
   },
   {
-    "input": "wword",
-    "output": "word",
+    "input": "brb",
+    "output": "brb",
+    "variant": "SG",
+    "typo_type": "none"
+  },
+  {
+    "input": "eait",
+    "output": "wait",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "She has a grea zense of humour.",
+    "output": "She has a great sense of humour.",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "yyou good",
+    "output": "you good",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "The counsellor gvae good advice.",
+    "output": "The counsellor gave good advice.",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Aiyo, I so blur today.",
+    "output": "Aiyo, I so blur today.",
+    "variant": "SG",
+    "typo_type": "none"
+  },
+  {
+    "input": "brb",
+    "output": "brb",
+    "variant": "SG",
+    "typo_type": "none"
+  },
+  {
+    "input": "I recognise that this is challenging.",
+    "output": "I recognise that this is challenging.",
+    "variant": "SG",
+    "typo_type": "none"
+  },
+  {
+    "input": "wth",
+    "output": "wth",
+    "variant": "SG",
+    "typo_type": "none"
+  },
+  {
+    "input": "I need t apologise for being late.",
+    "output": "I need to apologise for being late.",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "one wec",
+    "output": "one sec",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "hold on",
+    "output": "hold on",
+    "variant": "SG",
+    "typo_type": "none"
+  },
+  {
+    "input": "Cheque tye tyre pressure befoge driving.",
+    "output": "Cheque the tyre pressure before driving.",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I think wE should discuss ths further.",
+    "output": "I think we should discuss this further.",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Let me know b if you need anything.",
+    "output": "Let me know if you need anything.",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "good gight",
+    "output": "good night",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "fyi",
+    "output": "fyi",
+    "variant": "SG",
+    "typo_type": "none"
+  },
+  {
+    "input": "Seh worE her favourite pyjamas.",
+    "output": "She wore her favourite pyjamas.",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "The jewelry stome is closed today.",
+    "output": "The jewelry store is closed today.",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "soounds good",
+    "output": "sounds good",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "i",
+    "output": "hi",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "i'm dowj",
+    "output": "i'm down",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "goated",
+    "output": "goated",
+    "variant": "SG",
+    "typo_type": "none"
+  },
+  {
+    "input": "That doughnut looks delicious.",
+    "output": "That doughnut looks delicious.",
+    "variant": "SG",
+    "typo_type": "none"
+  },
+  {
+    "input": "ong",
+    "output": "ong",
+    "variant": "SG",
+    "typo_type": "none"
+  },
+  {
+    "input": "Everythinng iss going b according to plan.",
+    "output": "Everything is going according to plan.",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "bet",
+    "output": "bet",
+    "variant": "SG",
+    "typo_type": "none"
+  },
+  {
+    "input": "vibea",
+    "output": "vibes",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "omg",
+    "output": "omg",
+    "variant": "SG",
+    "typo_type": "none"
+  },
+  {
+    "input": "keep me posted",
+    "output": "keep me posted",
+    "variant": "SG",
+    "typo_type": "none"
+  },
+  {
+    "input": "Let ke kow when you're free tr n discuss thia.",
+    "output": "Let me know when you're free to discuss this.",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "what timee Does the meetinfg zstart?",
+    "output": "What time does the meeting start?",
+    "variant": "SG",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Can you organise the meering for tomorrow?",
+    "output": "Can you organise the meeting for tomorrow?",
     "variant": "SG",
     "typo_type": "corrupted"
   }
