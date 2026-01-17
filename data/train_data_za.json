@@ -1,0 +1,602 @@
+[
+  {
+    "input": "Sorry for the late reply, been super busy.",
+    "output": "Sorry for the late reply, been super busy.",
+    "variant": "ZA",
+    "typo_type": "none"
+  },
+  {
+    "input": "This place is moerse nie.",
+    "output": "This place is moerse nice.",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "wtere rae v you",
+    "output": "where are you",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "That doughNut looks delicious.",
+    "output": "That doughnut looks delicious.",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "highkey",
+    "output": "highkey",
+    "variant": "ZA",
+    "typo_type": "none"
+  },
+  {
+    "input": "lowkey",
+    "output": "lowkey",
+    "variant": "ZA",
+    "typo_type": "none"
+  },
+  {
+    "input": "i am looking forward to hearing from you soon.",
+    "output": "I am looking forward to hearing from you soon.",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "nat",
+    "output": "nah",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "sus",
+    "output": "sus",
+    "variant": "ZA",
+    "typo_type": "none"
+  },
+  {
+    "input": "Just finished the presentation, ready for tomorrow's meeting",
+    "output": "Just finished the presentation, ready for tomorrow's meeting.",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "nood",
+    "output": "mood",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "what's your favourite colour?",
+    "output": "What's your favourite colour?",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "bussin",
+    "output": "bussin",
+    "variant": "ZA",
+    "typo_type": "none"
+  },
+  {
+    "input": "vacts",
+    "output": "facts",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I need tko apologise fo being late.",
+    "output": "I need to apologise for being late.",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "cap",
+    "output": "cap",
+    "variant": "ZA",
+    "typo_type": "none"
+  },
+  {
+    "input": "checking n",
+    "output": "checking in",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Please letmd konw lf there's anything else you need frrom me before the meeting.",
+    "output": "Please let me know if there's anything else you need from me before the meeting.",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "hey, what's up? Hosw's it going?",
+    "output": "Hey, what's up? How's it going?",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I will send you the document latter todau.",
+    "output": "I will send you the document later today.",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Nice",
+    "output": "nice",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I realised I left jy phoge a home.",
+    "output": "I realised I left my phone at home.",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "bappy birthdzy",
+    "output": "happy birthday",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "let's prioritise the urgent tasks.",
+    "output": "Let's prioritise the urgent tasks.",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "we should optimisse the workfloe.",
+    "output": "We should optimise the workflow.",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "oky",
+    "output": "okay",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "the draught is coimng through the window.",
+    "output": "The draught is coming through the window.",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Thia boerewors s baie lekker!",
+    "output": "This boerewors is baie lekker!",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "i nfed to apkologise for being late.",
+    "output": "I need to apologise for being late.",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "looking forward to seeing everyone att the event this weekend.",
+    "output": "Looking forward to seeing everyone at the event this weekend.",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "i'm imn",
+    "output": "i'm in",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "ncie",
+    "output": "nice",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "text me",
+    "output": "text me",
+    "variant": "ZA",
+    "typo_type": "none"
+  },
+  {
+    "input": "Let n me know if yoou have any questions.",
+    "output": "Let me know if you have any questions.",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "hfy",
+    "output": "hey",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Looking forwrd to seeing everyone at tte event thus weekend.",
+    "output": "Looking forward to seeing everyone at the event this weekend.",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "hoe long will this v take?",
+    "output": "How long will this take?",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Can't talk b right now, text me.",
+    "output": "Can't talk right now, text me.",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "no ruh",
+    "output": "no rush",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "The movie was marvellous",
+    "output": "The movie was marvellous.",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "heehe",
+    "output": "hehe",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "RunniNg late, be theer in twen minutes.",
+    "output": "Running late, be there in ten minutes.",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "seE you later",
+    "output": "see you later",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "miss tou",
+    "output": "miss you",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "It v was a rey qand sloudy b day.",
+    "output": "It was a grey and cloudy day.",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "gret",
+    "output": "great",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "just ow I was there.",
+    "output": "Just now I was there.",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "yhe b draught is n cmoing through the window.",
+    "output": "The draught is coming through the window.",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "wAit",
+    "output": "wait",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Yebo I b agree with you.",
+    "output": "Yebo, I agree with you.",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "nnext time",
+    "output": "next time",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "i really appreciateyour patiense.",
+    "output": "I really appreciate your patience.",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "omw",
+    "output": "omw",
+    "variant": "ZA",
+    "typo_type": "none"
+  },
+  {
+    "input": "Good morning! Hope you have a mreat day.",
+    "output": "Good morning! Hope you have a great day.",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Battery is dying, tsalk later.",
+    "output": "Battery is dying, talk later.",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "thank you o much",
+    "output": "thank you so much",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I'll  get bxck to you as soon as I can.",
+    "output": "I'll get back to you as soon as I can.",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Can you  please sall me wmen yau get a chance?",
+    "output": "Can you please call me when you get a chance?",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "heh",
+    "output": "hey",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "cure",
+    "output": "sure",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "hah",
+    "output": "haha",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Ja nee, it's compljcated.",
+    "output": "Ja nee, it's complicated.",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "We should optimise rheworkflow.",
+    "output": "We should optimise the workflow.",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Can you please help me with this problem?",
+    "output": "Can you please help me with this problem?",
+    "variant": "ZA",
+    "typo_type": "none"
+  },
+  {
+    "input": "nope",
+    "output": "nope",
+    "variant": "ZA",
+    "typo_type": "none"
+  },
+  {
+    "input": "Let me know if you have any questions.",
+    "output": "Let me know if you have any questions.",
+    "variant": "ZA",
+    "typo_type": "none"
+  },
+  {
+    "input": "wanna come",
+    "output": "wanna come",
+    "variant": "ZA",
+    "typo_type": "none"
+  },
+  {
+    "input": "quitk question",
+    "output": "quick question",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "now",
+    "output": "now",
+    "variant": "ZA",
+    "typo_type": "none"
+  },
+  {
+    "input": "no probelm",
+    "output": "no problem",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "This is taking lunger thansexpected.",
+    "output": "This is taking longer than expected.",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "hwenever yoi can",
+    "output": "whenever you can",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "my bzad",
+    "output": "my bad",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "tbh",
+    "output": "tbh",
+    "variant": "ZA",
+    "typo_type": "none"
+  },
+  {
+    "input": "wrd",
+    "output": "word",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "otw",
+    "output": "otw",
+    "variant": "ZA",
+    "typo_type": "none"
+  },
+  {
+    "input": "ow",
+    "output": "now",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "keep me posfted",
+    "output": "keep me posted",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "sounds reat",
+    "output": "sounds great",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "ccool",
+    "output": "cool",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "you good",
+    "output": "you good",
+    "variant": "ZA",
+    "typo_type": "none"
+  },
+  {
+    "input": "brb",
+    "output": "brb",
+    "variant": "ZA",
+    "typo_type": "none"
+  },
+  {
+    "input": "can b you send me the report y end kf day?",
+    "output": "Can you send me the report by end of day?",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Im sceptical about the results.",
+    "output": "I'm sceptical about the results.",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "counds great",
+    "output": "sounds great",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "godo luck",
+    "output": "good luck",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "almost tjere",
+    "output": "almost there",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "misk jou",
+    "output": "miss you",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "yi",
+    "output": "hi",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "lovve you",
+    "output": "love you",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Can we reschedule our meeting to next week?",
+    "output": "Can we reschedule our meeting to next week?",
+    "variant": "ZA",
+    "typo_type": "none"
+  },
+  {
+    "input": "n rush",
+    "output": "no rush",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "fool",
+    "output": "cool",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "whete are ypu",
+    "output": "where are you",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "whaks up",
+    "output": "what's up",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "The buildingg has ten storeys.",
+    "output": "The building has ten storeys.",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Running late, bd there in ten minutes.",
+    "output": "Running late, be there in ten minutes.",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Sorry for the late reply, heen super busy.",
+    "output": "Sorry for the late reply, been super busy.",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "That souncs great, counht me kn!",
+    "output": "That sounds great, count me in!",
+    "variant": "ZA",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "imo",
+    "output": "imo",
+    "variant": "ZA",
+    "typo_type": "none"
+  }
+]

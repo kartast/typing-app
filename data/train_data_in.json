@@ -1,0 +1,602 @@
+[
+  {
+    "input": "I apologise fOr any inconvenience thos may have cauusedyou.",
+    "output": "I apologise for any inconvenience this may have caused you.",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Running lzte, nbethere in ten miuntes.",
+    "output": "Running late, be there in ten minutes.",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Let me know if you have any questions.",
+    "output": "Let me know if you have any questions.",
+    "variant": "IN",
+    "typo_type": "none"
+  },
+  {
+    "input": "asap",
+    "output": "asap",
+    "variant": "IN",
+    "typo_type": "none"
+  },
+  {
+    "input": "facta",
+    "output": "facts",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "This is very tension b giving.",
+    "output": "This is very tension giving.",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "sure",
+    "output": "sure",
+    "variant": "IN",
+    "typo_type": "none"
+  },
+  {
+    "input": "I'll authorise the pament today.",
+    "output": "I'll authorise the payment today.",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "based",
+    "output": "based",
+    "variant": "IN",
+    "typo_type": "none"
+  },
+  {
+    "input": "Today I am gng to the office to work on a new project.",
+    "output": "Today I am going to the office to work on a new project.",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "now",
+    "output": "now",
+    "variant": "IN",
+    "typo_type": "none"
+  },
+  {
+    "input": "cool",
+    "output": "cool",
+    "variant": "IN",
+    "typo_type": "none"
+  },
+  {
+    "input": "thanks",
+    "output": "thanks",
+    "variant": "IN",
+    "typo_type": "none"
+  },
+  {
+    "input": "yes",
+    "output": "yes",
+    "variant": "IN",
+    "typo_type": "none"
+  },
+  {
+    "input": "whenever yo can",
+    "output": "whenever you can",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "We n need to finalise ghe eport by b Friday.",
+    "output": "We need to finalise the report by Friday.",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "see you later",
+    "output": "see you later",
+    "variant": "IN",
+    "typo_type": "none"
+  },
+  {
+    "input": "coming",
+    "output": "coming",
+    "variant": "IN",
+    "typo_type": "none"
+  },
+  {
+    "input": "I wouldlik to schevule a mseting fot tomorrow.",
+    "output": "I would like to schedule a meeting for tomorrow.",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "The movie aws marvellous.",
+    "output": "The movie was marvellous.",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "We newed to finalise the report by Friday.",
+    "output": "We need to finalise the report by Friday.",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "ty",
+    "output": "ty",
+    "variant": "IN",
+    "typo_type": "none"
+  },
+  {
+    "input": "soon",
+    "output": "soon",
+    "variant": "IN",
+    "typo_type": "none"
+  },
+  {
+    "input": "The weathwr is beautiful roday.",
+    "output": "The weather is beautiful today.",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "lews",
+    "output": "less",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "let me kbnow",
+    "output": "let me know",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Let's priorjtise the urgent tasks.",
+    "output": "Let's prioritise the urgent tasks.",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "wanna coke",
+    "output": "wanna come",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Battery is dyigg, talk later.",
+    "output": "Battery is dying, talk later.",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "count mf in",
+    "output": "count me in",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "The theatre id just aRound thee corner.",
+    "output": "The theatre is just around the corner.",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "good ludk",
+    "output": "good luck",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "jk",
+    "output": "jk",
+    "variant": "IN",
+    "typo_type": "none"
+  },
+  {
+    "input": "Where should we meet fot dinner?",
+    "output": "Where should we meet for dinner?",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "btw",
+    "output": "btw",
+    "variant": "IN",
+    "typo_type": "none"
+  },
+  {
+    "input": "Can you pleae call m when you get a chance?",
+    "output": "Can you please call me when you get a chance?",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "The meeting got preponed to 2 PM",
+    "output": "The meeting got preponed to 2 PM.",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "My phone is almost dead.",
+    "output": "My phone is almost dead.",
+    "variant": "IN",
+    "typo_type": "none"
+  },
+  {
+    "input": "miss ypu",
+    "output": "miss you",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "The aeroplane landed o time.",
+    "output": "The aeroplane landed on time.",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "jappy birthday",
+    "output": "happy birthday",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "where are You",
+    "output": "where are you",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "What's te wifi passwkrd?",
+    "output": "What's the wifi password?",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "znyone home",
+    "output": "anyone home",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "soOn",
+    "output": "soon",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "no",
+    "output": "no",
+    "variant": "IN",
+    "typo_type": "none"
+  },
+  {
+    "input": "latsr",
+    "output": "later",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "highkey",
+    "output": "highkey",
+    "variant": "IN",
+    "typo_type": "none"
+  },
+  {
+    "input": "The theatre is just around the corner.",
+    "output": "The theatre is just around the corner.",
+    "variant": "IN",
+    "typo_type": "none"
+  },
+  {
+    "input": "I hvae a meeting at three o'clock this afternoon.",
+    "output": "I have a meeting at three o'clock this afternoon.",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "ogod luck",
+    "output": "good luck",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "idc",
+    "output": "idc",
+    "variant": "IN",
+    "typo_type": "none"
+  },
+  {
+    "input": "okxy",
+    "output": "okay",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "ngl",
+    "output": "ngl",
+    "variant": "IN",
+    "typo_type": "none"
+  },
+  {
+    "input": "gaha",
+    "output": "haha",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Cwn you please fall me n when you get a chance?",
+    "output": "Can you please call me when you get a chance?",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "slay",
+    "output": "slay",
+    "variant": "IN",
+    "typo_type": "none"
+  },
+  {
+    "input": "He has a thickk moustache.",
+    "output": "He has a thick moustache.",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Did you gt my last message?",
+    "output": "Did you get my last message?",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "comming",
+    "output": "coming",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "sus",
+    "output": "sus",
+    "variant": "IN",
+    "typo_type": "none"
+  },
+  {
+    "input": "lit",
+    "output": "lit",
+    "variant": "IN",
+    "typo_type": "none"
+  },
+  {
+    "input": "almont there",
+    "output": "almost there",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "true",
+    "output": "true",
+    "variant": "IN",
+    "typo_type": "none"
+  },
+  {
+    "input": "I forgot my phone at home.",
+    "output": "I forgot my phone at home.",
+    "variant": "IN",
+    "typo_type": "none"
+  },
+  {
+    "input": "Can you send me te report by pnd of day?",
+    "output": "Can you send me the report by end of day?",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "soryr",
+    "output": "sorry",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "fr",
+    "output": "fr",
+    "variant": "IN",
+    "typo_type": "none"
+  },
+  {
+    "input": "thinkin f you",
+    "output": "thinking of you",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Loooking forward t seeing everyone at the event this weekend.",
+    "output": "Looking forward to seeing everyone at the event this weekend.",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "The qyick brown fox jumps over the lazy dog.",
+    "output": "The quick brown fox jumps over the lazy dog.",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Tgis is veery tension ggiving.",
+    "output": "This is very tension giving.",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "see you v laater",
+    "output": "see you later",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "tte organisation is planning a restructure.",
+    "output": "The organisation is planning a restructure.",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I'll authorise yhe payment today.",
+    "output": "I'll authorise the payment today.",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "sus",
+    "output": "sus",
+    "variant": "IN",
+    "typo_type": "none"
+  },
+  {
+    "input": "omw",
+    "output": "omw",
+    "variant": "IN",
+    "typo_type": "none"
+  },
+  {
+    "input": "yiu there",
+    "output": "you there",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "can't make it",
+    "output": "can't make it",
+    "variant": "IN",
+    "typo_type": "none"
+  },
+  {
+    "input": "we need to finalise tme report by Friday.",
+    "output": "We need to finalise the report by Friday.",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "No worries, take your time.",
+    "output": "No worries, take your time.",
+    "variant": "IN",
+    "typo_type": "none"
+  },
+  {
+    "input": "call you lwter",
+    "output": "call you later",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "The drauhgt is comnig throughh the window.",
+    "output": "The draught is coming through the window.",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "running late, be there in ten minutes.",
+    "output": "Running late, be there in ten minutes.",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "maybs lqter",
+    "output": "maybe later",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I'm working from home today.",
+    "output": "I'm working from home today.",
+    "variant": "IN",
+    "typo_type": "none"
+  },
+  {
+    "input": "how are  jyou",
+    "output": "how are you",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "vibrs",
+    "output": "vibes",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "text me",
+    "output": "text me",
+    "variant": "IN",
+    "typo_type": "none"
+  },
+  {
+    "input": "gacts",
+    "output": "facts",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "yuo",
+    "output": "yup",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Theek hai no problem.",
+    "output": "Theek hai, no problem.",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "i'll follow up with you tomorrow morning.",
+    "output": "I'll follow up with you tomorrow morning.",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "less",
+    "output": "less",
+    "variant": "IN",
+    "typo_type": "none"
+  },
+  {
+    "input": "on my qay",
+    "output": "on my way",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "i'm dowwn",
+    "output": "i'm down",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "truue",
+    "output": "true",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I need to finish this by tonight.",
+    "output": "I need to finish this by tonight.",
+    "variant": "IN",
+    "typo_type": "none"
+  },
+  {
+    "input": "The b jewelry store is v closed today.",
+    "output": "The jewelry store is closed today.",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "an you v send me thr report by end of day?",
+    "output": "Can you send me the report by end of day?",
+    "variant": "IN",
+    "typo_type": "corrupted"
+  }
+]

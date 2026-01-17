@@ -1,0 +1,602 @@
+[
+  {
+    "input": "Can hou explain this fo me?",
+    "output": "Can you explain this to me?",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Tye team analysed the data carefully.",
+    "output": "The team analysed the data carefully.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Can v we reschedule oir meeting to next week?",
+    "output": "Can we reschedule our meeting to next week?",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "count em in",
+    "output": "count me in",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "be there soon",
+    "output": "be there soon",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "Just got your message, calling you bak.",
+    "output": "Just got your message, calling you back.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "comimg",
+    "output": "coming",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "The aeroplane landed on tine.",
+    "output": "The aeroplane landed on time.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I'lL foliow up with you tomorrow morbing.",
+    "output": "I'll follow up with you tomorrow morning.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "fr",
+    "output": "fr",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "yext me",
+    "output": "text me",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Faster lah we alte already.",
+    "output": "Faster lah, we late already.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "kk",
+    "output": "kk",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "When will you be available?",
+    "output": "When will you be available?",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "Mum iz coming to viskt next week.",
+    "output": "Mum is coming to visit next week.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "eHllo, how are v you? I am fine, thank you.",
+    "output": "Hello, how are you? I am fine, thank you.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "That doughhnut looks delicious.",
+    "output": "That doughnut looks delicious.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "It was a ggrey and cloudy day.",
+    "output": "It was a grey and cloudy day.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "pls",
+    "output": "pls",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "thx",
+    "output": "thx",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "Everything is goinf according to plan.",
+    "output": "Everything is going according to plan.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "all goox",
+    "output": "all good",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "fyi",
+    "output": "fyi",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "Im wworking from home todaz",
+    "output": "I'm working from home today.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Sje has a great ense if humour.",
+    "output": "She has a great sense of humour.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "No worries, take your time.",
+    "output": "No worries, take your time.",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "Lt e kjow whne you're fee fo disckuss this.",
+    "output": "Let me know when you're free to discuss this.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "helpo",
+    "output": "hello",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "congrats",
+    "output": "congrats",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "I have a meeting at three oclock ths afternoon.",
+    "output": "I have a meeting at three o'clock this afternoon.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "calL you latee",
+    "output": "call you later",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "means a loi",
+    "output": "means a lot",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "hello",
+    "output": "hello",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "conl",
+    "output": "cool",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "am",
+    "output": "atm",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "sef you soon",
+    "output": "see you soon",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Thnk ypu fot your hely with this issue.",
+    "output": "Thank you for your help with this issue.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "tapk  later",
+    "output": "talk later",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "the organsation is planning a restructure.",
+    "output": "The organisation is planning a restructure.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "when yore feee",
+    "output": "when you're free",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Somwthingcame up and I have to cancel.",
+    "output": "Something came up and I have to cancel.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "i'll follow up with you tomorrow morning.",
+    "output": "I'll follow up with you tomorrow morning.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Battery is dying, talk alter.",
+    "output": "Battery is dying, talk later.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "lowkey",
+    "output": "lowkey",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "yuup",
+    "output": "yup",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "the programme starts at eight o'clock.",
+    "output": "The programme starts at eight o'clock.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "cool",
+    "output": "cool",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "brb",
+    "output": "brb",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "kk",
+    "output": "kk",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "I apologise for any inconveniencethis may have caused you.",
+    "output": "I apologise for any inconvenience this may have caused you.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "imho",
+    "output": "imho",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "dure",
+    "output": "sure",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "i forgot my phone at home.",
+    "output": "I forgot my phone at home.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "zey",
+    "output": "hey",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "great",
+    "output": "great",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "Thdt asounds b great, cunt b me ih!",
+    "output": "That sounds great, count me in!",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I travelled to London lqst summer.",
+    "output": "I travelled to London last summer.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "slay",
+    "output": "slay",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "lol",
+    "output": "lol",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "I'll get back to you as soon as I can.",
+    "output": "I'll get back to you as soon as I can.",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "gota",
+    "output": "goat",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "based",
+    "output": "based",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "bussin",
+    "output": "bussin",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "bet",
+    "output": "bet",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "The ddfence n teaM prepared their case.",
+    "output": "The defence team prepared their case.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Battery is n dying, yalk latfr.",
+    "output": "Battery is dying, talk later.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "wanna coome",
+    "output": "wanna come",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "faster lah, wk b late already.",
+    "output": "Faster lah, we late already.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Thanks for your Help with this!",
+    "output": "Thanks for your help with this!",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Shehas a great sejnse of hummour.",
+    "output": "She has a great sense of humour.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Don't action so muc lah.",
+    "output": "Don't action so much lah.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "leaving now",
+    "output": "leaving now",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "sry",
+    "output": "sry",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "idc",
+    "output": "idc",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "Just finished the presentation, ready for tomorrrow's meeting.",
+    "output": "Just finished the presentation, ready for tomorrow's meeting.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Thankss bor yor hdlp with this!",
+    "output": "Thanks for your help with this!",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "what's  up",
+    "output": "what's up",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "msybe lter",
+    "output": "maybe later",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Please let me know if there''s anything else you need from me before lhe meeting.",
+    "output": "Please let me know if there's anything else you need from me before the meeting.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "no problem",
+    "output": "no problem",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "I think we should discuss this further.",
+    "output": "I think we should discuss this further.",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "hy",
+    "output": "hey",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Please let me know if there's b anything else you need from me before the meeting.",
+    "output": "Please let me know if there's anything else you need from me before the meeting.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "whenevfr yoy can",
+    "output": "whenever you can",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "np",
+    "output": "np",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "okk",
+    "output": "kk",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Just wanted to chequd im ad see how you're foing.",
+    "output": "Just wanted to cheque in and see how you're doing.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Rhis one cincai do can already lah.",
+    "output": "This one cincai do can already lah.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "wati",
+    "output": "wait",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Faster lah, we laet already.",
+    "output": "Faster lah, we late already.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Let meknow if you need anything.",
+    "output": "Let me know if you need anything.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Can't twlk right now, yext me.",
+    "output": "Can't talk right now, text me.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "see yoi soon",
+    "output": "see you soon",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Just wante xo cheque in and see hw youre doing",
+    "output": "Just wanted to cheque in and see how you're doing.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "keep je posted",
+    "output": "keep me posted",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "i'll be out kf office next Monday.",
+    "output": "I'll be out of office next Monday.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "what's upp",
+    "output": "what's up",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "ngl",
+    "output": "ngl",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "true",
+    "output": "true",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "ue kantoi already, everyoe khows.",
+    "output": "He kantoi already, everyone knows.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  }
+]

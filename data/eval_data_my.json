@@ -1,0 +1,302 @@
+[
+  {
+    "input": "later",
+    "output": "later",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "cngrats",
+    "output": "congrats",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Please review the document and provide feedback.",
+    "output": "Please review the document and provide feedback.",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "Boss, one teh tarik b pls.",
+    "output": "Boss, one teh tarik please.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "quick qustion",
+    "output": "quick question",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "mid",
+    "output": "mid",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "Im working from home today",
+    "output": "I'm working from home today.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Can yoku explaih this to me?",
+    "output": "Can you explain this to me?",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "She wore hrr favourite pyjamsa.",
+    "output": "She wore her favourite pyjamas.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "He has a thick moustache.",
+    "output": "He has a thick moustache.",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "nice",
+    "output": "nice",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "you there",
+    "output": "you there",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "Battery id dying, n talk later.",
+    "output": "Battery is dying, talk later.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "where are  you",
+    "output": "where are you",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "ehy",
+    "output": "hey",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "i am typing this message hoping the AI can understand me.",
+    "output": "I am typing this message hoping the AI can understand me.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Just got your message, calling uou back.",
+    "output": "Just got your message, calling you back.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "smh",
+    "output": "smh",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "I reocgnise n tmat this is challenging.",
+    "output": "I recognise that this is challenging.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Cheque the tyre pressure before driving.",
+    "output": "Cheque the tyre pressure before driving.",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "Tahnks fr your help with this!",
+    "output": "Thanks for your help with this!",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "god night",
+    "output": "good night",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "how afe n you",
+    "output": "how are you",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "k",
+    "output": "k",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "imo",
+    "output": "imo",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "Thjs one cincai do can already lah.",
+    "output": "This one cincai do can already lah.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Aiyo, co jahal one this.",
+    "output": "Aiyo, so mahal one this.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "fyi",
+    "output": "fyi",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "Potong syim lah you.",
+    "output": "Potong stim lah you.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "lmao",
+    "output": "lmao",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "thank hyou so much",
+    "output": "thank you so much",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Bsad signal herw, might chut out.",
+    "output": "Bad signal here, might cut out.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "based",
+    "output": "based",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "I think we should disuss thic further.",
+    "output": "I think we should discuss this further.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "imho",
+    "output": "imho",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "Wei, you going wherw ah?",
+    "output": "Wei, you going where ah?",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Wei, yOu going where Ah?",
+    "output": "Wei, you going where ah?",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "got uit",
+    "output": "got it",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "uou down",
+    "output": "you down",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I'm worling from hohme tofay.",
+    "output": "I'm working from home today.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "sounds gret",
+    "output": "sounds great",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "i'm sceptical sbout the results.",
+    "output": "I'm sceptical about the results.",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "idk",
+    "output": "idk",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "Haiya, traffic jam again.",
+    "output": "Haiya, traffic jam again.",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "Why yo os geng one?",
+    "output": "Why you so geng one?",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Hoe sre you doing today?",
+    "output": "How are you doing today?",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "smh",
+    "output": "smh",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "The movie was marvellous.",
+    "output": "The movie was marvellous.",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "I outstation next week.",
+    "output": "I outstation next week.",
+    "variant": "MY",
+    "typo_type": "none"
+  },
+  {
+    "input": "That sodnds great count me  in!",
+    "output": "That sounds great, count me in!",
+    "variant": "MY",
+    "typo_type": "corrupted"
+  }
+]

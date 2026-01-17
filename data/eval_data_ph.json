@@ -1,0 +1,302 @@
+[
+  {
+    "input": "The deadline has been extended bo next Ftiday.",
+    "output": "The deadline has been extended to next Friday.",
+    "variant": "PH",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "ong",
+    "output": "ong",
+    "variant": "PH",
+    "typo_type": "none"
+  },
+  {
+    "input": "what's up",
+    "output": "what's up",
+    "variant": "PH",
+    "typo_type": "none"
+  },
+  {
+    "input": "can we reschedule our meeting ti next week?",
+    "output": "Can we reschedule our meeting to next week?",
+    "variant": "PH",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "The artifact was found ih Eggpt.",
+    "output": "The artifact was found in Egypt.",
+    "variant": "PH",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "whag's up",
+    "output": "what's up",
+    "variant": "PH",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I'll text yku when I arrive.",
+    "output": "I'll text you when I arrive.",
+    "variant": "PH",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "asap",
+    "output": "asap",
+    "variant": "PH",
+    "typo_type": "none"
+  },
+  {
+    "input": "later",
+    "output": "later",
+    "variant": "PH",
+    "typo_type": "none"
+  },
+  {
+    "input": "you goog",
+    "output": "you good",
+    "variant": "PH",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Themoive wss marvelous.",
+    "output": "The movie was marvelous.",
+    "variant": "PH",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "ttrue",
+    "output": "true",
+    "variant": "PH",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "i'll follow up with you tomorros morning.",
+    "output": "I'll follow up with you tomorrow morning.",
+    "variant": "PH",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "ong",
+    "output": "ong",
+    "variant": "PH",
+    "typo_type": "none"
+  },
+  {
+    "input": "nolpe",
+    "output": "nope",
+    "variant": "PH",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "be right there",
+    "output": "be right there",
+    "variant": "PH",
+    "typo_type": "none"
+  },
+  {
+    "input": "I think wf sholud discussthis further.",
+    "output": "I think we should discuss this further.",
+    "variant": "PH",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "She wore hrr favorite pajamas.",
+    "output": "She wore her favorite pajamas.",
+    "variant": "PH",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "cominb",
+    "output": "coming",
+    "variant": "PH",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "i forgot my phone t pome.",
+    "output": "I forgot my phone at home.",
+    "variant": "PH",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "He has a thick mustache.",
+    "output": "He has a thick mustache.",
+    "variant": "PH",
+    "typo_type": "none"
+  },
+  {
+    "input": "when you're fre",
+    "output": "when you're free",
+    "variant": "PH",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "thinikng o ypu",
+    "output": "thinking of you",
+    "variant": "PH",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "mid",
+    "output": "mid",
+    "variant": "PH",
+    "typo_type": "none"
+  },
+  {
+    "input": "sleep wekk",
+    "output": "sleep well",
+    "variant": "PH",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "atn",
+    "output": "atm",
+    "variant": "PH",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "good mornins",
+    "output": "good morning",
+    "variant": "PH",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Rhe building has ten stories.",
+    "output": "The building has ten stories.",
+    "variant": "PH",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "jo cap",
+    "output": "no cap",
+    "variant": "PH",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "ja",
+    "output": "ya",
+    "variant": "PH",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "brt",
+    "output": "brt",
+    "variant": "PH",
+    "typo_type": "none"
+  },
+  {
+    "input": "thank you s much",
+    "output": "thank you so much",
+    "variant": "PH",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "tbh",
+    "output": "tbh",
+    "variant": "PH",
+    "typo_type": "none"
+  },
+  {
+    "input": "I really appreciate your patience.",
+    "output": "I really appreciate your patience.",
+    "variant": "PH",
+    "typo_type": "none"
+  },
+  {
+    "input": "goat",
+    "output": "goat",
+    "variant": "PH",
+    "typo_type": "none"
+  },
+  {
+    "input": "have fjun",
+    "output": "have fun",
+    "variant": "PH",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "g2g",
+    "output": "g2g",
+    "variant": "PH",
+    "typo_type": "none"
+  },
+  {
+    "input": "jk",
+    "output": "jk",
+    "variant": "PH",
+    "typo_type": "none"
+  },
+  {
+    "input": "I really appreciate yourr patience.",
+    "output": "I really appreciate your patience.",
+    "variant": "PH",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "no problem",
+    "output": "no problem",
+    "variant": "PH",
+    "typo_type": "none"
+  },
+  {
+    "input": "op my way",
+    "output": "on my way",
+    "variant": "PH",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "true",
+    "output": "true",
+    "variant": "PH",
+    "typo_type": "none"
+  },
+  {
+    "input": "can't mke it",
+    "output": "can't make it",
+    "variant": "PH",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "same",
+    "output": "same",
+    "variant": "PH",
+    "typo_type": "none"
+  },
+  {
+    "input": "I realized I left my phone at home.",
+    "output": "I realized I left my phone at home.",
+    "variant": "PH",
+    "typo_type": "none"
+  },
+  {
+    "input": "yep",
+    "output": "yep",
+    "variant": "PH",
+    "typo_type": "none"
+  },
+  {
+    "input": "I am typinG this mesesage hoping  the AI can understand me.",
+    "output": "I am typing this message hoping the AI can understand me.",
+    "variant": "PH",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I'll meet you at the center n ocf town.",
+    "output": "I'll meet you at the center of town.",
+    "variant": "PH",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "skon",
+    "output": "soon",
+    "variant": "PH",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "The defense tema preparer their case.",
+    "output": "The defense team prepared their case.",
+    "variant": "PH",
+    "typo_type": "corrupted"
+  }
+]

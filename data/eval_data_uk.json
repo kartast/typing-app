@@ -1,0 +1,302 @@
+[
+  {
+    "input": "Please let me know if there's anything else you need from me before te meeting.",
+    "output": "Please let me know if there's anything else you need from me before the meeting.",
+    "variant": "UK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I travellde to London lsat summer.",
+    "output": "I travelled to London last summer.",
+    "variant": "UK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "pls",
+    "output": "pls",
+    "variant": "UK",
+    "typo_type": "none"
+  },
+  {
+    "input": "sry",
+    "output": "sry",
+    "variant": "UK",
+    "typo_type": "none"
+  },
+  {
+    "input": "brt",
+    "output": "brt",
+    "variant": "UK",
+    "typo_type": "none"
+  },
+  {
+    "input": "lol",
+    "output": "lol",
+    "variant": "UK",
+    "typo_type": "none"
+  },
+  {
+    "input": "the draught is coming through the window.",
+    "output": "The draught is coming through the window.",
+    "variant": "UK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "see b you soon",
+    "output": "see you soon",
+    "variant": "UK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Bad signl here, might cuut out.",
+    "output": "Bad signal here, might cut out.",
+    "variant": "UK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Let me cheque my schedule and ger back to you.",
+    "output": "Let me cheque my schedule and get back to you.",
+    "variant": "UK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "you dkwn",
+    "output": "you down",
+    "variant": "UK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "The weathdr is beautiful today.",
+    "output": "The weather is beautiful today.",
+    "variant": "UK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "talk latwr",
+    "output": "talk later",
+    "variant": "UK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "you gvod",
+    "output": "you good",
+    "variant": "UK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "mow",
+    "output": "now",
+    "variant": "UK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "whenever you n can",
+    "output": "whenever you can",
+    "variant": "UK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Thdy manoeuvred tjrough traffic.",
+    "output": "They manoeuvred through traffic.",
+    "variant": "UK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "herE",
+    "output": "here",
+    "variant": "UK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "brb",
+    "output": "brb",
+    "variant": "UK",
+    "typo_type": "none"
+  },
+  {
+    "input": "ogn my wy",
+    "output": "on my way",
+    "variant": "UK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "lmao",
+    "output": "lmao",
+    "variant": "UK",
+    "typo_type": "none"
+  },
+  {
+    "input": "cn't make it",
+    "output": "can't make it",
+    "variant": "UK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "congrats",
+    "output": "congrats",
+    "variant": "UK",
+    "typo_type": "none"
+  },
+  {
+    "input": "latr",
+    "output": "later",
+    "variant": "UK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I'm gobsmacked by the neews!",
+    "output": "I'm gobsmacked by the news!",
+    "variant": "UK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "quick suestion",
+    "output": "quick question",
+    "variant": "UK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I'm welll chuffed with the result.",
+    "output": "I'm well chuffed with the result.",
+    "variant": "UK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "sde you soon",
+    "output": "see you soon",
+    "variant": "UK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Let me know b if you have nay questions.",
+    "output": "Let me know if you have any questions.",
+    "variant": "UK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "bet",
+    "output": "bet",
+    "variant": "UK",
+    "typo_type": "none"
+  },
+  {
+    "input": "mdans a lt",
+    "output": "means a lot",
+    "variant": "UK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Thank you for yoir helP with this issue.",
+    "output": "Thank you for your help with this issue.",
+    "variant": "UK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "grue",
+    "output": "true",
+    "variant": "UK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "asap",
+    "output": "asap",
+    "variant": "UK",
+    "typo_type": "none"
+  },
+  {
+    "input": "elaving noq",
+    "output": "leaving now",
+    "variant": "UK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "thx",
+    "output": "thx",
+    "variant": "UK",
+    "typo_type": "none"
+  },
+  {
+    "input": "be thre soon",
+    "output": "be there soon",
+    "variant": "UK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "factss",
+    "output": "facts",
+    "variant": "UK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "coming",
+    "output": "coming",
+    "variant": "UK",
+    "typo_type": "none"
+  },
+  {
+    "input": "sorry",
+    "output": "sorry",
+    "variant": "UK",
+    "typo_type": "none"
+  },
+  {
+    "input": "rain cbeck",
+    "output": "rain check",
+    "variant": "UK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "jk",
+    "output": "jk",
+    "variant": "UK",
+    "typo_type": "none"
+  },
+  {
+    "input": "Battery  is dyint, talk later.",
+    "output": "Battery is dying, talk later.",
+    "variant": "UK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "The jewelry stkre is closed n tday.",
+    "output": "The jewelry store is closed today.",
+    "variant": "UK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "helo",
+    "output": "hello",
+    "variant": "UK",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "ty",
+    "output": "ty",
+    "variant": "UK",
+    "typo_type": "none"
+  },
+  {
+    "input": "asap",
+    "output": "asap",
+    "variant": "UK",
+    "typo_type": "none"
+  },
+  {
+    "input": "I will send you the document later today.",
+    "output": "I will send you the document later today.",
+    "variant": "UK",
+    "typo_type": "none"
+  },
+  {
+    "input": "The defence team prepared their case.",
+    "output": "The defence team prepared their case.",
+    "variant": "UK",
+    "typo_type": "none"
+  },
+  {
+    "input": "The aeroplanelanded on time.",
+    "output": "The aeroplane landed on time.",
+    "variant": "UK",
+    "typo_type": "corrupted"
+  }
+]

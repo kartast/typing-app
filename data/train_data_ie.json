@@ -1,0 +1,602 @@
+[
+  {
+    "input": "Youf onefrom down the road.",
+    "output": "Your one from down the road.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "uou down",
+    "output": "you down",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "idc",
+    "output": "idc",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "ga",
+    "output": "ya",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "thatdougbnut looks delicious.",
+    "output": "That doughnut looks delicious.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "he has a thisk moustache.",
+    "output": "He has a thick moustache.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "gtg",
+    "output": "gtg",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "hete",
+    "output": "here",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Hello, how are you? I am fine, thank you.",
+    "output": "Hello, how are you? I am fine, thank you.",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "yeP",
+    "output": "yep",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Who i coming o th pary?",
+    "output": "Who is coming to the party?",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "That's a deadly udea!",
+    "output": "That's a deadly idea!",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I wanted to follow up on our conversation from yesterday about the project timeline",
+    "output": "I wanted to follow up on our conversation from yesterday about the project timeline.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "zlmost three",
+    "output": "almost there",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "i forgot my phon t home.",
+    "output": "I forgot my phone at home.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I forgot my phone at hOme.",
+    "output": "I forgot my phone at home.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Hello, how aer you? I am fine, thank you.",
+    "output": "Hello, how are you? I am fine, thank you.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "thx",
+    "output": "thx",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "Just finished the presentation, geady for tomorrow's meeting.",
+    "output": "Just finished the presentation, ready for tomorrow's meeting.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "It was a greY and cloudy day.",
+    "output": "It was a grey and cloudy day.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "here",
+    "output": "here",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "almosy there",
+    "output": "almost there",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "ut o your runners, we'fe late.",
+    "output": "Put on your runners, we're late.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "brb",
+    "output": "brb",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "Please review the document abnd provide feedback.",
+    "output": "Please review the document and provide feedback.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "they manoeuvrde through traffic.",
+    "output": "They manoeuvred through traffic.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "thinkingOf youu",
+    "output": "thinking of you",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "imho",
+    "output": "imho",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "I erally appreciate your patience.",
+    "output": "I really appreciate your patience.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "hehe",
+    "output": "hehe",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "ong",
+    "output": "ong",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "It was a grey and cloudy dat.",
+    "output": "It was a grey and cloudy day.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "nvm",
+    "output": "nvm",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "gotit",
+    "output": "got it",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "stop actijg teh maggot!",
+    "output": "Stop acting the maggot!",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I am typing this messagehoping hte AI can understand me.",
+    "output": "I am typing this message hoping the AI can understand me.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "thinkcng lf you",
+    "output": "thinking of you",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "runnung late",
+    "output": "running late",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Tgat doyghnut lokoks delicious.",
+    "output": "That doughnut looks delicious.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "aold un",
+    "output": "hold on",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "text m",
+    "output": "text me",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "see you soon",
+    "output": "see you soon",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "thx",
+    "output": "thx",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "haha",
+    "output": "haha",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "brb",
+    "output": "brb",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "lmao",
+    "output": "lmao",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "cap",
+    "output": "cap",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "apprecoate it",
+    "output": "appreciate it",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "omw",
+    "output": "omw",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "She's very skilful at hre job.",
+    "output": "She's very skilful at her job.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "pls",
+    "output": "pls",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "I am typing this message hoping the AI can unnderstand me.",
+    "output": "I am typing this message hoping the AI can understand me.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Cheque he tyre pressure before driving.",
+    "output": "Cheque the tyre pressure before driving.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "mybe latfr",
+    "output": "maybe later",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "firs",
+    "output": "fire",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "lit",
+    "output": "lit",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "hah",
+    "output": "haha",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "no problem",
+    "output": "no problem",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "imo",
+    "output": "imo",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "slay",
+    "output": "slay",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "I traveller to London last summer.",
+    "output": "I travelled to London last summer.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "leaving niw",
+    "output": "leaving now",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "fr",
+    "output": "fr",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "I travelled to Londonlast summer.",
+    "output": "I travelled to London last summer.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "comibg",
+    "output": "coming",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "you gkod",
+    "output": "you good",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "vibes",
+    "output": "vibes",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "Everything is going according to plan.",
+    "output": "Everything is going according to plan.",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "Where should we meet gor dinner?",
+    "output": "Where should we meet for dinner?",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "gup",
+    "output": "yup",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "i'll follow up with you tomogrow morning.",
+    "output": "I'll follow up with you tomorrow morning.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Stop acting thr maggot!",
+    "output": "Stop acting the maggot!",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "omg",
+    "output": "omg",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "o",
+    "output": "no",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "The draught iz coming through te window.",
+    "output": "The draught is coming through the window.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "it was a grey annd cloudy  daj.",
+    "output": "It was a grey and cloudy day.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "on problem",
+    "output": "no problem",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "The weather is beautiful today.",
+    "output": "The weather is beautiful today.",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "I'll text you when I arrive.",
+    "output": "I'll text you when I arrive.",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "goated",
+    "output": "goated",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "The car is totally banjaxed",
+    "output": "The car is totally banjaxed.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "go worries",
+    "output": "no worries",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "i wanted to follow up  on our conversation from yesterday qabout the project timeline.",
+    "output": "I wanted to follow up on our conversation from yesterday about the project timeline.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "good morrning",
+    "output": "good morning",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "n rush",
+    "output": "no rush",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "when you're free",
+    "output": "when you're free",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "yup",
+    "output": "yup",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "I need to apologiise for beihg late.",
+    "output": "I need to apologise for being late.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "larer",
+    "output": "later",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "nah",
+    "output": "nah",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "g2g",
+    "output": "g2g",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "Can you send me the jeport n by end of v day?",
+    "output": "Can you send me the report by end of day?",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "g2g",
+    "output": "g2g",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "idc",
+    "output": "idc",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "heh",
+    "output": "hehe",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "anoyne home",
+    "output": "anyone home",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "otw",
+    "output": "otw",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "tge weather Is beautiful today.",
+    "output": "The weather is beautiful today.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "np",
+    "output": "np",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "mood",
+    "output": "mood",
+    "variant": "IE",
+    "typo_type": "none"
+  }
+]

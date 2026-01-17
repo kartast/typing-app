@@ -1,0 +1,6 @@
+model,size,fixed_i_am_fine,fixed_i_am_going,fixed_typing,no_hallucination,overall_score,notes
+smollm2:135m,100MB,NO,YES,NO,NO,1/4,"Changed meaning - 'I am fine' became 'Thank you very much', added extra commentary"
+qwen3:0.6b,400MB,NO,YES,NO,NO,1/4,"Kept 'amfi' unchanged, changed 'typing blindly' to 'trying to fix'"
+gemma3:1b,600MB,NO,YES,NO,NO,1/4,"Changed 'I am fine' to 'I'm doing well', changed meaning of last sentence"
+llama3.2:1b,700MB,NO,NO,NO,NO,0/4,"REFUSED - false positive content filter triggered"
+phi4-mini,2.5GB,NO,YES,NO,NO,1/4,"Changed meaning significantly, added commentary about 'ia amfi ne'"

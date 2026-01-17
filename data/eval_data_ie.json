@@ -1,0 +1,302 @@
+[
+  {
+    "input": "thakn you so much",
+    "output": "thank you so much",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "CCan we reschedule our meeting ho nextt week?",
+    "output": "Can we reschedule our meeting to next week?",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "valid",
+    "output": "valid",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "goated",
+    "output": "goated",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "have un",
+    "output": "have fun",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "ty",
+    "output": "ty",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "hxppy bbirthday",
+    "output": "happy birthday",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "comnig",
+    "output": "coming",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Ah sude, it'll e grand.",
+    "output": "Ah sure, it'll be grand.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "got it",
+    "output": "got it",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "wanna come",
+    "output": "wanna come",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "be roght thrre",
+    "output": "be right there",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "rhank you so much",
+    "output": "thank you so much",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Where shoul we meet for dinner?",
+    "output": "Where should we meet for dinner?",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I think ew should discuss tnis further.",
+    "output": "I think we should discuss this further.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "bet",
+    "output": "bet",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "mum iis cohming to vixit next week.",
+    "output": "Mum is coming to visit next week.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "yeah",
+    "output": "yeah",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "comming",
+    "output": "coming",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Looking forWard to seeing everyone at yhe event thsi weekend.",
+    "output": "Looking forward to seeing everyone at the event this weekend.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "comig",
+    "output": "coming",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "can't maje it",
+    "output": "can't make it",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "thimking of you",
+    "output": "thinking of you",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "btw",
+    "output": "btw",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "omg",
+    "output": "omg",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "np",
+    "output": "np",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "my bad",
+    "output": "my bad",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "gah",
+    "output": "nah",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "next time",
+    "output": "next time",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "cap",
+    "output": "cap",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "Rhe artefact ws fould in Egypt.",
+    "output": "The artefact was found in Egypt.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "hello?",
+    "output": "hello?",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "miss yo",
+    "output": "miss you",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "pls",
+    "output": "pls",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "can't n make it",
+    "output": "can't make it",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "have  fun",
+    "output": "have fun",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "sorrg",
+    "output": "sorry",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Running late, be tjere in ten minnutes.",
+    "output": "Running late, be there in ten minutes.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "omw",
+    "output": "omw",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "pls",
+    "output": "pls",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "Cn you organise the meetigg for tomorrow?",
+    "output": "Can you organise the meeting for tomorrow?",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "Ddi you get my last message?",
+    "output": "Did you get my last message?",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "otw",
+    "output": "otw",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "you dwon",
+    "output": "you down",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "yold no",
+    "output": "hold on",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I thjnk we shoulv discuss ythis furtter.",
+    "output": "I think we should discuss this further.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "I'm sceptical abohut tehresults.",
+    "output": "I'm sceptical about the results.",
+    "variant": "IE",
+    "typo_type": "corrupted"
+  },
+  {
+    "input": "She wore her favourite pyjamas.",
+    "output": "She wore her favourite pyjamas.",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "The car is totally banjaxed.",
+    "output": "The car is totally banjaxed.",
+    "variant": "IE",
+    "typo_type": "none"
+  },
+  {
+    "input": "lmao",
+    "output": "lmao",
+    "variant": "IE",
+    "typo_type": "none"
+  }
+]
