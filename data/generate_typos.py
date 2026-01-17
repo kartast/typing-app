@@ -675,7 +675,8 @@ SAMPLE_SENTENCES = [
 
 
 def generate_dataset(num_samples: int = 10000, error_rate: float = 0.20, variant: str = 'US',
-                     clean_sample_ratio: float = 0.10, variable_error_rate: bool = True) -> list:
+                     clean_sample_ratio: float = 0.10, variable_error_rate: bool = True,
+                     variants_per_sample: int = 1) -> list:
     """
     Generate dataset of (corrupted, clean) text pairs.
 
@@ -685,6 +686,7 @@ def generate_dataset(num_samples: int = 10000, error_rate: float = 0.20, variant
         variant: English spelling variant (US, UK, AU, SG, MY, IN, PH, NG, ZA, HK, IE, SC, NZ)
         clean_sample_ratio: Ratio of samples with NO typos (teaches model not to over-correct)
         variable_error_rate: Whether to vary error rate per sample
+        variants_per_sample: Number of different typo variants to generate per clean sample
 
     Returns:
         List of {"input": corrupted, "output": clean} dicts
@@ -712,7 +714,7 @@ def generate_dataset(num_samples: int = 10000, error_rate: float = 0.20, variant
 
         # Determine if this should be a clean sample (no typos)
         if random.random() < clean_sample_ratio:
-            # Clean sample - input equals output
+            # Clean sample - input equals output (only add once, not multiple variants)
             dataset.append({
                 "input": clean,
                 "output": clean,
@@ -720,27 +722,35 @@ def generate_dataset(num_samples: int = 10000, error_rate: float = 0.20, variant
                 "typo_type": "none"
             })
         else:
-            # Select error rate for this sample
-            sample_error_rate = random.choices(error_rates, weights=error_weights)[0]
+            # Generate multiple typo variants for this clean sample
+            generated_variants = set()  # Track to avoid duplicates
 
-            # Corrupt with mobile typos
-            corrupted = corrupt_text_mobile(clean, error_rate=sample_error_rate, variant=variant)
+            for v in range(variants_per_sample):
+                # Select error rate for this variant
+                sample_error_rate = random.choices(error_rates, weights=error_weights)[0]
 
-            # Ensure it's actually different (retry if needed)
-            attempts = 0
-            while corrupted == clean and attempts < 3:
-                corrupted = corrupt_text_mobile(clean, error_rate=sample_error_rate + 0.15, variant=variant)
-                attempts += 1
+                # Corrupt with mobile typos
+                corrupted = corrupt_text_mobile(clean, error_rate=sample_error_rate, variant=variant)
 
-            dataset.append({
-                "input": corrupted,
-                "output": clean,
-                "variant": variant,
-                "typo_type": "corrupted" if corrupted != clean else "none"
-            })
+                # Ensure it's actually different (retry if needed)
+                attempts = 0
+                while (corrupted == clean or corrupted in generated_variants) and attempts < 5:
+                    corrupted = corrupt_text_mobile(clean, error_rate=sample_error_rate + 0.10, variant=variant)
+                    attempts += 1
+
+                # Only add if unique
+                if corrupted not in generated_variants:
+                    generated_variants.add(corrupted)
+                    dataset.append({
+                        "input": corrupted,
+                        "output": clean,
+                        "variant": variant,
+                        "typo_type": "corrupted" if corrupted != clean else "none"
+                    })
 
         if (i + 1) % 1000 == 0:
-            print(f"Generated {i + 1}/{num_samples} samples...")
+            total_expected = num_samples * variants_per_sample
+            print(f"Processed {i + 1}/{num_samples} samples ({len(dataset)} pairs)...")
 
     return dataset
 
@@ -802,6 +812,12 @@ def main():
         action='store_true',
         help='Use fixed error rate instead of variable'
     )
+    parser.add_argument(
+        '--variants-per-sample', '-n',
+        type=int,
+        default=1,
+        help='Number of typo variants to generate per clean sample (default: 1). Use 2-3 for better model robustness.'
+    )
     args = parser.parse_args()
 
     # Handle fixed vs variable error rate
@@ -819,6 +835,7 @@ def main():
     print("Robustness features:")
     print(f"  - Clean samples ratio: {args.clean_ratio:.0%}")
     print(f"  - Variable error rates: {variable_error_rate}")
+    print(f"  - Variants per sample: {args.variants_per_sample}")
     print("  - Protected: numbers, URLs, emails, emojis, slang, regional particles")
     print()
 
@@ -853,23 +870,25 @@ def main():
         eval_count = max(eval_count, 50)
 
         # Generate training data
-        print(f"Generating training data ({train_count} samples)...")
+        print(f"Generating training data ({train_count} samples × {args.variants_per_sample} variants)...")
         train_data = generate_dataset(
             num_samples=train_count,
             error_rate=args.error_rate,
             variant=variant,
             clean_sample_ratio=args.clean_ratio,
-            variable_error_rate=variable_error_rate
+            variable_error_rate=variable_error_rate,
+            variants_per_sample=args.variants_per_sample
         )
 
-        # Generate evaluation data
+        # Generate evaluation data (always 1 variant for eval - cleaner metrics)
         print(f"Generating evaluation data ({eval_count} samples)...")
         eval_data = generate_dataset(
             num_samples=eval_count,
             error_rate=args.error_rate,
             variant=variant,
             clean_sample_ratio=args.clean_ratio,
-            variable_error_rate=variable_error_rate
+            variable_error_rate=variable_error_rate,
+            variants_per_sample=1  # Single variant for eval
         )
 
         all_train_data.extend(train_data)
