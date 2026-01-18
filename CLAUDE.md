@@ -160,23 +160,133 @@ cd mobile && npx expo run:ios
 
 ## Mobile App
 
-### Building
+### Prerequisites
+
+- Node.js 18+
+- EAS CLI: `npm install -g eas-cli`
+- Expo account: `eas login`
+- Apple Developer account (for device builds)
+
+### Step 1: Download ONNX Model
+
+First, download the quantized model from Modal:
+
+```bash
+# Export and quantize model (if not done already)
+modal run export/download_and_export.py --action export
+
+# Download to local onnx_model/ folder
+modal run export/download_and_export.py --action download
+```
+
+This creates `onnx_model/` with:
+- `model_quantized.onnx` (473 MB)
+- `vocab.json` (2.6 MB)
+- Config files
+
+### Step 2: Build with EAS Cloud
+
+**Cannot use Expo Go** - the app requires native ONNX Runtime modules.
 
 ```bash
 cd mobile
 npm install
-npx expo run:ios    # or run:android
+
+# For iOS Simulator (no Apple credentials needed)
+eas build --platform ios --profile simulator
+
+# For iOS Device (requires Apple Developer account)
+eas build --platform ios --profile development
 ```
 
-**Note:** Cannot use Expo Go because onnxruntime-react-native requires native modules.
+The device build will prompt you to:
+1. Sign in to Apple Developer account
+2. Create provisioning profile
+3. Register test devices
 
-### Model Loading
+### Step 3: Install on Device
 
-The app expects model files in the device's documents folder:
-- `Documents/models/model_quantized.onnx` (473 MB)
-- `Documents/models/vocab.json` (2.6 MB)
+**Option A: QR Code (easiest)**
+1. Open the EAS build URL from the terminal output
+2. Scan QR code with your iPhone camera
+3. Follow prompts to install
 
-For production, implement model download on first launch.
+**Option B: CLI**
+```bash
+# List recent builds
+eas build:list
+
+# Install latest build
+eas build:run -p ios
+```
+
+**Option C: Manual**
+1. Download `.ipa` from EAS dashboard
+2. Use Apple Configurator or Xcode Devices to install
+
+### Step 4: Copy Model to Device
+
+The app looks for model files in the app's Documents folder. Use one of these methods:
+
+**Option A: Finder (macOS Ventura+)**
+1. Connect iPhone to Mac
+2. Open Finder → iPhone → Files
+3. Find "Typing Corrector" app
+4. Create `models/` folder
+5. Copy `model_quantized.onnx` and `vocab.json`
+
+**Option B: Xcode**
+1. Open Xcode → Window → Devices and Simulators
+2. Select your iPhone
+3. Find "Typing Corrector" in Installed Apps
+4. Click gear icon → Download Container
+5. Add files to `AppData/Documents/models/`
+6. Click gear icon → Replace Container
+
+**Option C: iTunes File Sharing (if enabled)**
+1. Connect iPhone to Mac
+2. Open Finder → iPhone → Files tab
+3. Drag model files to app's folder
+
+### Step 5: Run the App
+
+1. Open "Typing Corrector" on your iPhone
+2. Wait for "Model ready!" status
+3. Type text with typos in the input box
+4. Tap "Correct" to see AI-corrected output
+
+### EAS Build Profiles
+
+| Profile | Command | Use Case |
+|---------|---------|----------|
+| `simulator` | `eas build -p ios --profile simulator` | iOS Simulator testing |
+| `development` | `eas build -p ios --profile development` | Real device testing |
+| `preview` | `eas build -p ios --profile preview` | Internal distribution |
+| `production` | `eas build -p ios --profile production` | App Store |
+
+### Local Build (Alternative)
+
+If you prefer local builds instead of EAS cloud:
+
+```bash
+cd mobile
+
+# Generate native projects
+npx expo prebuild
+
+# Build with Xcode
+cd ios && pod install
+open TypingCorrector.xcworkspace
+# Build and run from Xcode
+```
+
+### Model File Locations
+
+| Platform | Path |
+|----------|------|
+| iOS Device | `<App>/Documents/models/` |
+| iOS Simulator | `~/Library/Developer/CoreSimulator/.../Documents/models/` |
+| Android | `/data/data/com.typingcorrector.app/files/models/` |
 
 ## Dependencies
 
