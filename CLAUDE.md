@@ -7,8 +7,8 @@ Mobile keyboard app that corrects typing errors using on-device AI. Smarter than
 **Key Features:**
 - Fully offline (privacy-focused)
 - Passage-level correction (not word-by-word)
-- Supports US/UK/AU English spelling variants
-- On-device inference via ExecuTorch
+- Supports 13 regional English variants
+- On-device inference via ONNX Runtime
 
 ## Architecture
 
@@ -19,10 +19,10 @@ Mobile keyboard app that corrects typing errors using on-device AI. Smarter than
 │                                                              │
 │   data/                        training/                     │
 │   ├── generate_typos.py        └── train_modal.py           │
-│   ├── english_variants.py          (Modal GPU - A10G)       │
+│   ├── samples/*.txt               (Modal GPU - A10G)        │
 │   ├── train_data.json                                        │
 │   └── eval_data.json           Base: Qwen2.5-0.5B-Instruct  │
-│                                Fine-tune: LoRA (4-bit)       │
+│                                Fine-tune: LoRA (r=16)        │
 │                                                              │
 └─────────────────────────────────────────────────────────────┘
                               │
@@ -31,7 +31,22 @@ Mobile keyboard app that corrects typing errors using on-device AI. Smarter than
 │                      EXPORT PIPELINE                         │
 ├─────────────────────────────────────────────────────────────┤
 │                                                              │
-│   PyTorch (LoRA merged) → ExecuTorch (.pte) → Mobile App    │
+│   export/download_and_export.py                              │
+│   PyTorch (LoRA merged) → ONNX → INT8 Quantized (473MB)     │
+│                                                              │
+└─────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌─────────────────────────────────────────────────────────────┐
+│                      MOBILE APP                              │
+├─────────────────────────────────────────────────────────────┤
+│                                                              │
+│   mobile/                                                    │
+│   ├── App.tsx                  # Main UI                    │
+│   └── services/                                              │
+│       └── TypingCorrector.ts   # ONNX inference             │
+│                                                              │
+│   Expo + React Native + ONNX Runtime                        │
 │                                                              │
 └─────────────────────────────────────────────────────────────┘
 ```
@@ -44,16 +59,30 @@ typing-app/
 ├── FINE_TUNING_PLAN.md       # Detailed training plan
 ├── run.sh                    # Main entry point
 ├── test_local.py             # Test on Mac (mlx-lm)
-├── model_test_results.csv    # Ollama baseline tests
 │
 ├── data/
 │   ├── generate_typos.py     # Synthetic typo generator
-│   ├── english_variants.py   # US/UK/AU spelling support
-│   ├── train_data.json       # Training data
+│   ├── english_variants.py   # Regional spelling support
+│   ├── samples/              # LLM-generated clean text
+│   ├── train_data.json       # Training data (24,844 pairs)
 │   └── eval_data.json        # Evaluation data
 │
-└── training/
-    └── train_modal.py        # Modal GPU training script
+├── training/
+│   └── train_modal.py        # Modal GPU training script
+│
+├── export/
+│   └── download_and_export.py # ONNX export + quantization
+│
+├── onnx_model/               # Downloaded quantized model
+│   ├── model_quantized.onnx  # 473 MB INT8 model
+│   ├── vocab.json            # Tokenizer vocabulary
+│   └── *.json                # Config files
+│
+└── mobile/                   # Expo React Native app
+    ├── App.tsx               # Main UI
+    ├── services/
+    │   └── TypingCorrector.ts # Inference service
+    └── package.json
 ```
 
 ## Commands
@@ -61,9 +90,8 @@ typing-app/
 ```bash
 # Generate training data
 ./run.sh generate                    # US English (default)
-./run.sh generate --variant UK       # UK English
 ./run.sh generate --variant ALL      # All variants
-./run.sh generate --train-samples 10000
+./run.sh generate --variants-per-sample 3  # Multiple typo variants
 
 # Train on Modal (GPU)
 ./run.sh train
@@ -71,11 +99,14 @@ typing-app/
 # Test trained model (on Modal)
 ./run.sh test
 
-# Download trained model
-./run.sh download
+# Export to ONNX with quantization
+modal run export/download_and_export.py --action export
 
-# Test locally on Mac (Apple Silicon)
-python test_local.py
+# Download model locally
+modal run export/download_and_export.py --action download
+
+# Run mobile app (requires native build)
+cd mobile && npx expo run:ios
 ```
 
 ## Model Details
@@ -84,180 +115,99 @@ python test_local.py
 |------|-------|
 | Base Model | `Qwen/Qwen2.5-0.5B-Instruct` |
 | Parameters | 500M total, ~2M trainable (LoRA) |
-| Training | LoRA r=16, 4-bit quantization |
-| Cloud | Modal (A10G GPU, ~$1/hr) |
-| Target Size | ~300MB quantized |
+| Training | LoRA r=16, 3 epochs, loss 0.776 |
+| Cloud | Modal (A10G GPU) |
+| Export Format | ONNX (INT8 quantized) |
+| Model Size | 473 MB |
+| Token Accuracy | 86.3% |
 
-## Spelling Variants
+## Spelling Variants (13 regions)
 
-| Code | Variant | Examples |
-|------|---------|----------|
+| Code | Variant | Regional Features |
+|------|---------|-------------------|
 | `US` | American | color, organize, center |
 | `UK` | British | colour, organise, centre |
-| `AU` | Australian | (same as UK) |
+| `AU` | Australian | arvo, servo, barbie |
+| `NZ` | New Zealand | sweet as, yeah nah |
+| `IE` | Irish | grand, fella |
+| `SC` | Scottish | aye, braw, wee |
+| `SG` | Singapore | lah, leh, lor, meh |
+| `MY` | Malaysian | la, -kah, boleh |
+| `IN` | Indian | yaar, ji, only |
+| `PH` | Filipino | po, ano, naman |
+| `HK` | Hong Kong | wor, la, fighting! |
+| `NG` | Nigerian | abi, o, sha |
+| `ZA` | South African | braai, lekker, now-now |
 
-**Note:** Model corrects typos only, not grammar or dialect. Singlish particles ("lah", "meh") and other non-standard English are preserved.
+## Training Data
 
-## Training Data Format
-
-```json
-{
-  "input": "i woudl liek to schdule a meetign",
-  "output": "I would like to schedule a meeting",
-  "variant": "US"
-}
-```
-
-Typo types simulated:
-- Adjacent key (fat finger) - 35%
-- Omission (skipped letter) - 20%
-- Insertion (double tap) - 15%
-- Transposition (swapped) - 15%
-- Substitution - 5%
-- Space errors - 5%
-- Case errors - 5%
-
-## Prompt Format
-
-```
-<|im_start|>user
-Correct this text: {typo_text}<|im_end|>
-<|im_start|>assistant
-{corrected_text}<|im_end|>
-```
+- 24,844 training pairs
+- 988 evaluation pairs
+- 3 typo variants per clean sample
+- 50,337 clean samples across 13 regions
 
 ## Current Status
 
 - [x] Data generation pipeline
-- [x] English variant support (US/UK/AU + 10 more regional variants)
-- [x] Mobile typo simulation
-- [x] Modal training script
-- [x] LLM-generated sample data (22,988 samples)
-- [ ] Training run (in progress)
-- [ ] Export to ExecuTorch
-- [ ] Mobile app integration
+- [x] 13 regional variant support
+- [x] LLM-generated samples (50,000+)
+- [x] Modal training (3 epochs, 86.3% accuracy)
+- [x] ONNX export with INT8 quantization
+- [x] Expo React Native app scaffold
+- [x] ONNX inference service
+- [ ] Model bundling/download in app
+- [ ] Keyboard extension integration
 
-## Sample Generation with Codex Bridge
+## Mobile App
 
-### Overview
-
-Samples are generated in two steps:
-1. **LLM generates clean text** → realistic sentences in `data/samples/{region}.txt`
-2. **Script adds typos** → `generate_typos.py` corrupts text for training pairs
-
-### Regional Sample Files
-
-```
-data/samples/
-├── us.txt    # American English
-├── uk.txt    # British English
-├── au.txt    # Australian English
-├── sg.txt    # Singapore (Singlish)
-├── my.txt    # Malaysian (Manglish)
-├── in.txt    # Indian English
-├── ph.txt    # Filipino (Taglish)
-├── hk.txt    # Hong Kong English
-├── ng.txt    # Nigerian English
-├── za.txt    # South African English
-├── nz.txt    # New Zealand (Kiwi)
-├── ie.txt    # Irish English
-└── sc.txt    # Scottish English
-```
-
-### Using Codex Bridge MCP
-
-Generate samples by calling the `mcp__codex-bridge__consult_codex` tool:
-
-```
-Tool: mcp__codex-bridge__consult_codex
-Parameters:
-  query: "Append 300 Singlish texts to data/samples/sg.txt
-          One per line. Use particles lah, leh, lor, meh, sia.
-          No code, just 300 lines."
-  directory: "/path/to/typing-app"
-  format: "text"
-  timeout: 240
-```
-
-**Key prompt patterns:**
-- Always say "Append" not "Write" (preserves existing data)
-- Specify "One per line" and "No code"
-- Include regional expressions/particles for authenticity
-- Keep batch size 200-300 lines (larger batches may timeout)
-
-**Run multiple regions in parallel** for efficiency:
-```
-# Call codex bridge for SG, MY, IN, PH simultaneously
-# Each with 300 lines, timeout 240s
-```
-
-### Checking Progress
+### Building
 
 ```bash
-# Count samples per region
-wc -l data/samples/*.txt
-
-# View total
-wc -l data/samples/*.txt | tail -1
+cd mobile
+npm install
+npx expo run:ios    # or run:android
 ```
 
-### How Many Samples?
+**Note:** Cannot use Expo Go because onnxruntime-react-native requires native modules.
 
-| Sample Count | Quality | Use Case |
-|--------------|---------|----------|
-| 1,000 | Proof of concept | Testing pipeline works |
-| 10,000 | Functional | Basic typo correction |
-| 25,000 | Good | Handles common cases well |
-| **50,000** | **Production** | **Recommended minimum** |
-| 100,000+ | Excellent | Robust edge case handling |
+### Model Loading
 
-**Target: ~3,850 samples per region × 13 regions = 50,000 total**
+The app expects model files in the device's documents folder:
+- `Documents/models/model_quantized.onnx` (473 MB)
+- `Documents/models/vocab.json` (2.6 MB)
 
-**Current: 22,988 samples** (need ~27,000 more for production)
-
-### Rate Limits
-
-Codex has usage limits. When hit:
-- Error: `usage_limit_reached`
-- Message shows reset time (e.g., "try again at 9:10 PM")
-- Wait for reset, then resume generation
-
-### Workflow
-
-1. Check current counts: `wc -l data/samples/*.txt`
-2. Identify regions needing more samples
-3. Run parallel Codex calls (200-300 lines each)
-4. Repeat until rate limit or target reached
-5. Commit progress: `git add data/samples && git commit`
-
-## Next Steps
-
-1. Complete training on Modal
-2. Test model quality
-3. Export to ExecuTorch (.pte format)
-4. Integrate into iOS/Android keyboard
+For production, implement model download on first launch.
 
 ## Dependencies
 
 **Training (Modal):**
 - torch, transformers, datasets
 - peft, accelerate, bitsandbytes
-- trl==0.15.2 (pinned - API changes frequently)
+- trl==0.15.2
 
-**Local Testing (Mac):**
-- mlx-lm (Apple Silicon optimized)
+**Export:**
+- optimum[onnxruntime]
+- onnxruntime, onnx
+
+**Mobile:**
+- expo, react-native
+- onnxruntime-react-native
+- expo-file-system
 
 ## Troubleshooting
 
-**Modal training fails:**
+**Training fails:**
 - Check `trl` version is pinned to 0.15.2
-- Ensure `train_data.json` exists in `data/`
+- Ensure `train_data.json` exists
 
-**Local test fails:**
-- Install mlx-lm: `pip install mlx-lm`
-- Requires Apple Silicon Mac
+**ONNX export fails:**
+- Ensure A10G GPU is available
+- Check Modal volume has space
 
-**API changes:**
-- Modal: Use `image.add_local_dir()` not `modal.Mount`
-- trl: Use `TrainingArguments` + `tokenizer` param (v0.15)
-- mlx-lm: Use `sampler=make_sampler(temp=0.1)` not `temperature=`
+**Mobile app crashes:**
+- Ensure building with native modules, not Expo Go
+- Check device has 2GB+ RAM
+
+**Model too large:**
+- Current: 473 MB (INT8 quantized)
+- Consider: 4-bit quantization, smaller model, or on-demand download

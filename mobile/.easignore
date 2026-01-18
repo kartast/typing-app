@@ -1,0 +1,23 @@
+# Ignore for EAS builds
+node_modules/
+.expo/
+dist/
+.git/
+
+# Large model files (download separately)
+*.onnx
+*.bin
+
+# Local development
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
